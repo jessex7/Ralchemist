@@ -1,0 +1,172 @@
+[
+    {
+        "name": "Dan Dan Noodles",
+        "instructions": "Brown pork in pan. Grate ginger, prepare veggies. Boil water, cook egg noodles. Prepare sauce. Mix sauce, ginger, and veggies into pan with pork",
+        "ingredients": [
+            {
+                "ingred_name": "Ginger"
+            },
+            {
+                "ingred_name": "Egg Noodles"
+            },
+            {
+                "ingred_name": "Ground Pork"
+            },
+            {
+                "ingred_name": "Soy Sauce"
+            },
+            {
+                "ingred_name": "Chili Oil"
+            },
+            {
+                "ingred_name": "Bell peppers"
+            },
+            {
+                "ingred_name": "Zucchini"
+            }
+        ],
+        "prep_time": 5.0,
+        "cook_time": 10.0,
+        "rating": 8,
+        "author": "Test Author 1",
+        "created_at": null,
+        "modified_at": null
+    },
+    {
+        "name": "Korean Beef",
+        "instructions": "Combine the soy sauce, 2 tablespoons water, brown sugar, sesame oil and red pepper flakes in a small bowl. Heat a large deep nonstick skillet over high heat, spray with oil and add the ground beef. Cook, breaking the meat up with a wooden spoon until cooked through, about 5 minutes. Add the onion, garlic and ginger and cook 1 minute.Pour the sauce over the beef, cover and simmer on low heat 10 minutes.To assemble the bowls, place 3/4 cup rice in each bowl, top with scant 2/3 cup beef, cucumbers, Gochujong, sesame seeds and scallions.",
+        "ingredients": [
+            {
+                "ingred_name": "Ginger - grated",
+                "unit": "tsp",
+                "amount": 1.0
+            },
+            {
+                "ingred_name": "Rice",
+                "unit": "cup(s)",
+                "amount": 2.0
+            },
+            {
+                "ingred_name": "Ground Beef",
+                "unit": "lb",
+                "amount": 1.0
+            },
+            {
+                "ingred_name": "Soy Sauce",
+                "unit": "cup(s)",
+                "amount": 0.25
+            },
+            {
+                "ingred_name": "Bell Pepper - sliced",
+                "amount": 1.0
+            },
+            {
+                "ingred_name": "Zucchini - sliced",
+                "amount": 1.0
+            },
+            {
+                "ingred_name": "Red Pepper Flakes",
+                "unit": "tsp",
+                "amount": 0.5
+            },
+            {
+                "ingred_name": "Onion - diced",
+                "unit": "cup(s)",
+                "amount": 0.25
+            },
+            {
+                "ingred_name": "Sesame Oil",
+                "unit": "tsp",
+                "amount": 1.0
+            },
+            {
+                "ingred_name": "Garlic - crushed",
+                "unit": "clove(s)",
+                "amount": 2.0
+            }
+        ],
+        "prep_time": 7.0,
+        "cook_time": 5.0,
+        "rating": 7,
+        "author": "Gina Homolka",
+        "created_at": null,
+        "modified_at": null
+    },
+    {
+        "name": "American Goulash",
+        "instructions": "Heat oil in a large saucepan over medium-high heat. Add onion and beef; cook, breaking up meat with a wooden spoon, until no longer pink, about 5 minutes. Add garlic, paprika, Italian seasoning, salt and pepper; cook, stirring, for 1 minute. Stir in tomatoes and their juices, tomato sauce and broth. Bring to a boil. Reduce heat to medium-low, cover and cook for 5 minutes. Add macaroni and cook, uncovered, stirring occasionally, until tender, 6 to 9 minutes. Remove from heat and let stand for 5 minutes before serving. Sprinkle with Parmesan, if desired.",
+        "ingredients": [
+            {
+                "ingred_name": "Avocado Oil",
+                "unit": "tbsp",
+                "amount": 1.0
+            },
+            {
+                "ingred_name": "Chopped onion",
+                "unit": "cup(s)",
+                "amount": 1.5
+            },
+            {
+                "ingred_name": "Ground Beef",
+                "unit": "lb",
+                "amount": 1.0
+            },
+            {
+                "ingred_name": "Garlic",
+                "unit": "clove(s)",
+                "amount": 2.0
+            },
+            {
+                "ingred_name": "Paprika",
+                "unit": "tsp",
+                "amount": 2.0
+            },
+            {
+                "ingred_name": "Italian Seasoning",
+                "unit": "tsp",
+                "amount": 1.0
+            },
+            {
+                "ingred_name": "Salt",
+                "unit": "tsp",
+                "amount": 1.0
+            },
+            {
+                "ingred_name": "Ground Pepper",
+                "unit": "tsp",
+                "amount": 0.25
+            },
+            {
+                "ingred_name": "Diced tomatoes",
+                "unit": "oz",
+                "amount": 14
+            },
+            {
+                "ingred_name": "Tomato sauce",
+                "unit": "oz",
+                "amount": 8
+            },
+            {
+                "ingred_name": "Beef broth",
+                "unit": "cup(s)",
+                "amount": 1
+            },
+            {
+                "ingred_name": "Rotini Pasta",
+                "unit": "lb",
+                "amount": 1
+            },
+            {
+                "ingred_name": "Grated parmesan cheese",
+                "unit": "tbsp",
+                "amount": 2.0
+            }
+        ],
+        "prep_time": null,
+        "cook_time": null,
+        "rating": 8,
+        "author": "Carolyn Casner",
+        "created_at": null,
+        "modified_at": null
+    }
+]

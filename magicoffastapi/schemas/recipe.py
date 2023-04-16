@@ -27,3 +27,9 @@ class Recipe(BaseRecipe):
 
 class RecipeInDB(Recipe):
     ingredients: list[Ingredient] | None
+
+
+class JoinedRecipeRecord(RecipeInDB):
+    ingred_name: str
+    amount: float | None
+    unit: str | None

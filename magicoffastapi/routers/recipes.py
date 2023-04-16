@@ -1,5 +1,5 @@
-from typing import Union
-from fastapi import APIRouter, Depends, Response, HTTPException
+from typing import Union, Annotated
+from fastapi import APIRouter, Depends, Response, HTTPException, Query
 from sqlalchemy import Connection
 from magicoffastapi.db.setup import get_db_conn
 from magicoffastapi.db.operations import (
@@ -7,6 +7,7 @@ from magicoffastapi.db.operations import (
     read_recipe_by_id,
     update_recipe,
     delete_recipe,
+    read_recipes_matching_query,
 )
 from magicoffastapi.schemas.recipe import BaseRecipe, Recipe
 
@@ -27,10 +28,15 @@ async def get_recipe_by_id(
 async def get_recipes(
     name: str | None = None,
     author: str | None = None,
-    ingredient: str | None = None,
+    ingredients: Annotated[list[str] | None, Query()] = None,
     db: Connection = Depends(get_db_conn),
 ) -> list[Recipe]:
-    pass
+    recipes = read_recipes_matching_query(
+        conn=db, name=name, author=author, ingredients=ingredients
+    )
+    if recipes is None:
+        return []
+    return recipes
 
 
 @router.post("/", status_code=201)

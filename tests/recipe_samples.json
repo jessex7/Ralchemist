@@ -168,5 +168,32 @@
         "author": "Carolyn Casner",
         "created_at": null,
         "modified_at": null
+    },
+    {
+        "name": "Peanut Butter & Jam Sandwich",
+        "instructions": "Spread peanut butter and jam on bread.",
+        "ingredients": [
+            {
+                "ingred_name": "Bread",
+                "unit": "slice",
+                "amount": 2.0
+            },
+            {
+                "ingred_name": "Peanut Butter",
+                "unit": "tbsp",
+                "amount": 3
+            },
+            {
+                "ingred_name": "Strawberry Jam",
+                "unit": "tbsp",
+                "amount": 1.0
+            }
+        ],
+        "prep_time": null,
+        "cook_time": null,
+        "rating": 6,
+        "author": "Joe Essex",
+        "created_at": null,
+        "modified_at": null
     }
 ]

@@ -54,6 +54,41 @@ def test_read_recipe(client: TestClient):
     # clean up - none required
 
 
+def test_read_recipes(client: TestClient):
+    # arrange - see conftest
+
+    # act
+    response = client.get("/recipes")
+
+    # assert
+    assert response.status_code == 200
+    response_data = response.json()
+    assert len(response_data) > 0
+
+
+def test_read_recipes_from_query(client: TestClient):
+    # arrange - see conftest
+
+    # act
+    params = {
+        "name": "Dan Dan Noodles",
+        "author": "Test Author 1",
+        "ingredients": ["Ginger", "Soy Sauce"],
+    }
+    response = client.get(
+        "/recipes",
+        params=params,
+    )
+
+    # assert
+    assert response.status_code == 200
+    response_data = response.json()
+    assert len(response_data) == 2
+
+    for item in response_data:
+        assert item["name"] == "Dan Dan Noodles" or item["name"] == "Korean Beef"
+
+
 def test_update_recipe(client: TestClient):
     # arrange
     initial_response = client.get("/recipes/1")

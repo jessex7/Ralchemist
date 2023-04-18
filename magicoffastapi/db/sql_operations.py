@@ -102,6 +102,25 @@ def select_recipes_by_ids(
     return recipes
 
 
+def select_recipes_with_ingredients_by_ids(
+    conn: Connection, recipe_ids: list[int]
+) -> list[JoinedRecipeRecord] | None:
+    stmt = build_recipe_with_ingredients_select_statement()
+    conditions = []
+    for id in recipe_ids:
+        conditions.append(recipes_table.c.recipe_id == id)
+    stmt = stmt.filter(or_(*conditions))
+    stmt = stmt.order_by(recipes_table.c.recipe_id)
+    recipes_result: Result = conn.execute(stmt)
+    raw_joined_rows = recipes_result.all()
+    if raw_joined_rows is None:
+        return None
+    joined_recipe_records = []
+    for row in raw_joined_rows:
+        joined_recipe_record = JoinedRecipeRecord(**row._asdict())
+    return joined_recipe_records
+
+
 def select_recipe_by_id_with_ingredients(
     recipe_id: int, conn: Connection
 ) -> Recipe | None:

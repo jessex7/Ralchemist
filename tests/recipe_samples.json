@@ -195,5 +195,1704 @@
         "author": "Joe Essex",
         "created_at": null,
         "modified_at": null
+    },
+    {
+        "original_url": "https://www.skinnytaste.com/veggie-stromboli/",
+        "prep_time": "20 mins",
+        "cook_time": "35 mins",
+        "ingredients": [
+            {
+                "ingred_name": "refrigerated or homemade pizza dough",
+                "amount": "16",
+                "unit": "ounce"
+            },
+            {
+                "ingred_name": "olive oil",
+                "amount": "1 1/2",
+                "unit": "tbsp"
+            },
+            {
+                "ingred_name": "kosher salt",
+                "amount": "3/4",
+                "unit": "tsp"
+            },
+            {
+                "ingred_name": "thinly sliced cremini mushrooms",
+                "amount": "8",
+                "unit": "ounces"
+            },
+            {
+                "ingred_name": "medium red onion",
+                "amount": "1",
+                "unit": null
+            },
+            {
+                "ingred_name": "baby spinach",
+                "amount": "3",
+                "unit": "cups"
+            },
+            {
+                "ingred_name": "garlic",
+                "amount": "3",
+                "unit": "cloves"
+            },
+            {
+                "ingred_name": "part-skim shredded mozzarella cheese",
+                "amount": "1",
+                "unit": "cup"
+            },
+            {
+                "ingred_name": "egg white",
+                "amount": "1",
+                "unit": null
+            },
+            {
+                "ingred_name": "sesame seeds",
+                "amount": null,
+                "unit": null
+            },
+            {
+                "ingred_name": "marinara sauce",
+                "amount": null,
+                "unit": null
+            }
+        ],
+        "instructions": [
+            "If the dough is refrigerated let it rest to room temp 1 hour before starting.",
+            "Preheat the oven to 400F and set rack in the center of the oven.",
+            "Heat a large non-stick skillet over medium-low heat and add 2 tablespoons extra virgin olive oil, when hot add the mushrooms and onions, season with 3/4 teaspoon kosher salt and black pepper, to taste and cook, stirring until tender, about 5 minutes.",
+            "Add the spinach, a pinch of salt and cook until wilted, 2 to 3 minutes.",
+            "Add garlic and cook 1 minute. Set aside to cool completely. (I usually place this outside in the winter to cool fast).",
+            "Spray a nonstick sheet pan with oil or line with a silicone mat.",
+            "With a rolling pin, roll out the dough on a floured surface to a 16 x 10 inch rectangle.",
+            "Place the veggies over the dough leaving about 1 1/2 inch from the edge. Top with cheese.",
+            "Use the egg wash and brush along the edge of the dough.",
+            "Fold one side of the dough over to cover the filling, then the short edges, followed by the other side, stretching slightly to seal, pinching the ends so nothing oozes out.",
+            "Lay the bread seam side down on the prepared pan.",
+            "Cut small slats in the top and brush with egg white. Top with sesame seeds, if using.",
+            "Bake 25 to 35 minutes, until golden brown on top and the dough is cooked on the end.",
+            "Remove from the oven and let it cool 5 minutes before slicing into 8 pieces.",
+            "Serve with marinara sauce on the side."
+        ],
+        "name": "Veggie Stromboli",
+        "author": "SkinnyTaste"
+    },
+    {
+        "original_url": "https://www.skinnytaste.com/one-pot-orzo-with-sausage-spinach-and-corn/",
+        "prep_time": "5 mins",
+        "cook_time": "35 mins",
+        "ingredients": [
+            {
+                "ingred_name": "mild Italian chicken sausage",
+                "amount": "14",
+                "unit": "ounces"
+            },
+            {
+                "ingred_name": "medium yellow onion",
+                "amount": "\u00bd",
+                "unit": null
+            },
+            {
+                "ingred_name": "frozen corn kernels",
+                "amount": "1",
+                "unit": "cup"
+            },
+            {
+                "ingred_name": "dry orzo",
+                "amount": "1",
+                "unit": "cup"
+            },
+            {
+                "ingred_name": "low sodium chicken broth",
+                "amount": "3",
+                "unit": "cups"
+            },
+            {
+                "ingred_name": "packed baby spinach",
+                "amount": "3",
+                "unit": "cups"
+            },
+            {
+                "ingred_name": "freshly grated parmesan",
+                "amount": "\u00bc",
+                "unit": "cup"
+            },
+            {
+                "ingred_name": "Freshly ground black pepper",
+                "amount": null,
+                "unit": null
+            }
+        ],
+        "instructions": [
+            "Remove the sausage from the casing and add it to a heavy bottom sauce pot or Dutch oven.",
+            "Cook over medium-high heat for 5 minutes, breaking it up with a wooden spoon.",
+            "Add the onion and corn (no need to thaw) and saut\u00e9 for 10 minutes.",
+            "Add the orzo and chicken broth, stir to combine then bring to a boil.",
+            "Reduce heat to medium low and simmer 10 minutes, stirring every few minutes and scraping the bottom of the pot to make sure the orzo doesn\u2019t stick.",
+            "Remove from the heat, add the spinach, stir and cover for a couple minutes, until the spinach has wilted.",
+            "Top with freshly grated parmesan and black pepper, to taste and serve."
+        ],
+        "name": "One-Pot Orzo with Sausage, Spinach and Corn",
+        "author": "SkinnyTaste"
+    },
+    {
+        "original_url": "https://www.skinnytaste.com/air-fryer-whole-chicken/",
+        "prep_time": "5 mins",
+        "cook_time": "50 mins",
+        "ingredients": [
+            {
+                "ingred_name": "trimmed whole chicken",
+                "amount": "3",
+                "unit": "pound"
+            },
+            {
+                "ingred_name": "Kosher salt",
+                "amount": null,
+                "unit": null
+            },
+            {
+                "ingred_name": "1% buttermilk",
+                "amount": "1",
+                "unit": "pint"
+            }
+        ],
+        "instructions": [
+            "The day before you want to cook the chicken, season the chicken generously with 2 teaspoons kosher salt and let it sit for 30 minutes. Optional: tightly tie together the legs of the chicken with a piece of butcher\u2019s twine.",
+            "Place the chicken in a large mixing bowl (large enough to hold the chicken) and pour in the buttermilk. Cover tight and refrigerate overnight rotating the chicken half way so both sides gets marinated.",
+            "Remove the chicken from the fridge an hour before you plan to cook it, then remove the chicken from the buttermilk shaking excess and discarding the buttermilk.",
+            "When ready to cook, transfer the chicken to the air fryer basket (at least 6 quart) belly side down. Season the top of the chicken with 1/2 teaspoon salt.",
+            "Air fry 350F about 25 minutes, until the top of the chicken is browned, then flip over, season the other side with remaining 1/2 teaspoon salt and cook 25 minutes, until golden and crisp and brown all over and the juices run clear when you insert a knife down to the bone between the leg and the thigh.",
+            "When the chicken\u2019s done, remove it to a platter and let it rest for 10 minutes before carving and serving.",
+            "To bake in the oven, bake 400F until golden and crisp and brown all over and the juices run clear when you insert a knife down to the bone between the leg and the thigh, about 1 hour or longer if needed."
+        ],
+        "name": "Buttermilk-Marinated Air Fryer Whole Roasted Chicken",
+        "author": "SkinnyTaste"
+    },
+    {
+        "original_url": "https://www.skinnytaste.com/spinach-prosciutto-and-mozzarella/",
+        "prep_time": "15 mins",
+        "cook_time": "30 mins",
+        "ingredients": [
+            {
+                "ingred_name": "garlic",
+                "amount": "3",
+                "unit": "cloves"
+            },
+            {
+                "ingred_name": "lemon juice",
+                "amount": "2",
+                "unit": "tbsp"
+            },
+            {
+                "ingred_name": "Dijon mustard",
+                "amount": "2",
+                "unit": "tsp"
+            },
+            {
+                "ingred_name": "olive oil",
+                "amount": "1",
+                "unit": "tsp"
+            },
+            {
+                "ingred_name": "fresh ground black pepper",
+                "amount": "1/4",
+                "unit": "tsp"
+            },
+            {
+                "ingred_name": "pork tenderloin",
+                "amount": "1",
+                "unit": "pound"
+            },
+            {
+                "ingred_name": "part skim mozzarella cheese",
+                "amount": "1 1/2",
+                "unit": "ounces"
+            },
+            {
+                "ingred_name": "fresh baby spinach",
+                "amount": "2",
+                "unit": "cups"
+            },
+            {
+                "ingred_name": "chopped sun dried tomatoes",
+                "amount": "2",
+                "unit": "tbsp"
+            },
+            {
+                "ingred_name": "thin sliced prosciutto",
+                "amount": "1",
+                "unit": "ounce"
+            },
+            {
+                "ingred_name": "salt and fresh cracked pepper",
+                "amount": null,
+                "unit": null
+            }
+        ],
+        "instructions": [
+            "Combine crushed garlic, lemon juice, mustard, olive oil, and pepper; mix well.",
+            "Cut a lengthwise slit down the center of the tenderloin to within 1/2- inch of bottom (careful not to cut all the way through).",
+            "Open tenderloin so it lies flat. On each half, make another, lengthwise slit down the center to within 1/2-inch of bottom; cover with plastic wrap. Flatten to 1/4-in. thickness with a mallet.",
+            "Remove plastic wrap; spread 1/2 of the garlic/Dijon mixture on the inside of the pork. Layer the cheese, spinach, sun dried tomatoes and proscuitto on top, press down gently.",
+            "Roll up pork jelly-roll style, starting with a long side. Tie the roast at 1-1/2-inch to 2-inch intervals with kitchen string.",
+            "Season lightly with salt, and remaining garlic/Dijon mixture. Place on a rack in a shallow baking pan.",
+            "Bake, uncovered, at 425\u00b0 for 25-30 minutes or until a meat thermometer reads 160\u00b0. Place under the broiler to brown the top for 5 minutes, then transfer to a serving platter or cutting board.",
+            "Let stand 10 minutes before removing string and slicing. Slice in 8 pieces."
+        ],
+        "name": "Spinach Prosciutto and Mozzarella Stuffed Pork Tenderloin",
+        "author": "SkinnyTaste"
+    },
+    {
+        "original_url": "https://www.skinnytaste.com/greek-yogurt-caesar-dip/",
+        "prep_time": "10 mins",
+        "cook_time": "0 mins",
+        "ingredients": [
+            {
+                "ingred_name": "lemon juice",
+                "amount": "2",
+                "unit": "tablespoons"
+            },
+            {
+                "ingred_name": "garlic",
+                "amount": "3",
+                "unit": "cloves"
+            },
+            {
+                "ingred_name": "Greek yogurt",
+                "amount": "1",
+                "unit": "cup"
+            },
+            {
+                "ingred_name": "finely grated Parmesan cheese",
+                "amount": "\u00bd",
+                "unit": "cup"
+            },
+            {
+                "ingred_name": "light mayonnaise",
+                "amount": "\u00bc",
+                "unit": "cup"
+            },
+            {
+                "ingred_name": "anchovy fillets",
+                "amount": "3",
+                "unit": null
+            },
+            {
+                "ingred_name": "Dijon mustard",
+                "amount": "1 \u00bd",
+                "unit": "teaspoons"
+            },
+            {
+                "ingred_name": "freshly ground black pepper",
+                "amount": "\u00bd",
+                "unit": "teaspoon"
+            },
+            {
+                "ingred_name": "crudites",
+                "amount": null,
+                "unit": null
+            }
+        ],
+        "instructions": [
+            "Place the lemon juice in a small dish and add the smashed garlic cloves.",
+            "Set aside to allow the garlic to infuse the lemon juice for at least 15 minutes.",
+            "Meanwhile, combine all the other ingredients in a bowl.",
+            "After 15 minutes, use a fork or small sieve to strain and discard the smashed garlic.",
+            "Add the lemon juice to the dip and stir to incorporate. If needed, season with more pepper or a little salt.",
+            "Serve at room temperature or chilled with your favorite crudites; it will keep in the fridge for up to 5 days."
+        ],
+        "name": "Caesar Dip",
+        "author": "SkinnyTaste"
+    },
+    {
+        "original_url": "https://www.skinnytaste.com/make-over-breakfast-sausage-and/",
+        "prep_time": "10 mins",
+        "cook_time": "50 mins",
+        "ingredients": [
+            {
+                "ingred_name": "wheat ciabatta bread",
+                "amount": "8",
+                "unit": "oz"
+            },
+            {
+                "ingred_name": "turkey breakfast sausage",
+                "amount": "12",
+                "unit": "oz"
+            },
+            {
+                "ingred_name": "fat-free milk",
+                "amount": "2",
+                "unit": "cups"
+            },
+            {
+                "ingred_name": "reduced-fat shredded sharp cheddar cheese",
+                "amount": "1-1/2",
+                "unit": "cups"
+            },
+            {
+                "ingred_name": "large eggs",
+                "amount": "10",
+                "unit": null
+            },
+            {
+                "ingred_name": "chopped green onions",
+                "amount": "1/2\u00a0",
+                "unit": "cup\u00a0"
+            },
+            {
+                "ingred_name": "sliced mushrooms",
+                "amount": "1",
+                "unit": "cup"
+            },
+            {
+                "ingred_name": "paprika",
+                "amount": "1/2",
+                "unit": "tsp"
+            },
+            {
+                "ingred_name": "kosher salt",
+                "amount": "1",
+                "unit": "tsp"
+            },
+            {
+                "ingred_name": "grated Parmesan cheese",
+                "amount": "2",
+                "unit": "tbsp"
+            }
+        ],
+        "instructions": [
+            "Preheat oven to 400F.",
+            "Arrange bread cubes on a baking sheet. Bake at 400\u00b0 for 8 minutes or until toasted.",
+            "Heat a medium skillet over medium-high heat. Add sausage to pan; cook 7 minutes or until browned, stirring to crumble.",
+            "Combine milk, cheese, eggs, Parmesan cheese, paprika, salt and pepper in a large bowl, stirring with a whisk.",
+            "Add bread, sausage, scallions and mushrooms, tossing well to coat bread. Spoon mixture into a 13x9-inch baking dish. Cover and refrigerate 8 hours or overnight.",
+            "Preheat oven to 350\u00b0F.",
+            "Uncover casserole.",
+            "Bake at 350\u00b0 for 50 minutes or until set and lightly browned.",
+            "Cut into 8 pieces; serve immediately."
+        ],
+        "name": "Breakfast Strata with Sausage and Mushrooms",
+        "author": "SkinnyTaste"
+    },
+    {
+        "original_url": "https://www.skinnytaste.com/fennel-gratin/",
+        "prep_time": "10 mins",
+        "cook_time": "1 hr",
+        "ingredients": [
+            {
+                "ingred_name": "large fennel bulbs",
+                "amount": "2",
+                "unit": null
+            },
+            {
+                "ingred_name": "small yellow onion",
+                "amount": "1",
+                "unit": null
+            },
+            {
+                "ingred_name": "olive oil",
+                "amount": "1 1/2",
+                "unit": "tablespoons"
+            },
+            {
+                "ingred_name": "Kosher salt and freshly ground black pepper",
+                "amount": "1 1/2",
+                "unit": "teaspoons"
+            },
+            {
+                "ingred_name": "vegetable or chicken broth",
+                "amount": "3/4",
+                "unit": "cup"
+            },
+            {
+                "ingred_name": "about 1/2 cup grated Gruyere cheese",
+                "amount": "2",
+                "unit": "ounce"
+            },
+            {
+                "ingred_name": "about 1/2 cup finely grated Parmesan cheese",
+                "amount": "1",
+                "unit": "ounce"
+            },
+            {
+                "ingred_name": "Panko breadcrumbs",
+                "amount": "1/3",
+                "unit": "cup"
+            },
+            {
+                "ingred_name": "freshly ground nutmeg",
+                "amount": "1/8",
+                "unit": "teaspoon"
+            }
+        ],
+        "instructions": [
+            "Preheat the oven to 325 degrees F.",
+            "Trim, quarter, and slice out the woody core of the fennel bulbs. Slice them into 1/2-inch thick wedges.",
+            "Slice the onion into 1/4-inch slices.",
+            "Place a 12-inch cast iron or other oven-safe skillet over medium-low heat and drizzle in the olive oil.",
+            "Arrange the fennel wedges concentrically in the skillet, and tuck the slices of onion in between the fennel. Sprinkle with 1 teaspoon of salt and a few cracks of pepper.",
+            "Cook, shaking the pan slightly now and then, for about 5 minutes. Keep the heat low enough that the pan doesn\u2019t smoke.",
+            "Once the mixture is giving off a nice fragrance, pour in the broth and carefully transfer the skillet to the oven.",
+            "Meanwhile, in a small bowl, mix the panko, Parmesan, Gruyere, Panko, nutmeg, and the remaining 1/2 teaspoon salt and a few cracks of pepper.",
+            "Bake the fennel for 45 minutes, or until the fennel is tender then remove the dish from the oven, raise the temperature to 375 degrees F, sprinkle the Gruyere mixture over the top and return to the oven for 15-20 minutes, or until the top is golden and crispy.",
+            "Allow to cool for 5-10 minutes then garnish with a few chopped fennel fronds."
+        ],
+        "name": "Fennel Gratin",
+        "author": "SkinnyTaste"
+    },
+    {
+        "original_url": "https://www.skinnytaste.com/rainbow-quinoa-salad-with-lemon-dressing/",
+        "prep_time": "15 mins",
+        "cook_time": "15 mins",
+        "ingredients": [
+            {
+                "ingred_name": "lemon juice",
+                "amount": "4",
+                "unit": "tablespoons"
+            },
+            {
+                "ingred_name": "olive oil",
+                "amount": "4",
+                "unit": "tablespoons"
+            },
+            {
+                "ingred_name": "kosher salt",
+                "amount": "1/2",
+                "unit": "teaspoon"
+            },
+            {
+                "ingred_name": "fresh black pepper",
+                "amount": null,
+                "unit": null
+            },
+            {
+                "ingred_name": "cooked quinoa",
+                "amount": "4",
+                "unit": "cups"
+            },
+            {
+                "ingred_name": "shredded brussels sprouts",
+                "amount": "1",
+                "unit": "cup"
+            },
+            {
+                "ingred_name": "shredded red cabbage",
+                "amount": "1",
+                "unit": "cup"
+            },
+            {
+                "ingred_name": "shredded or thin sliced carrots",
+                "amount": "1",
+                "unit": "cup"
+            },
+            {
+                "ingred_name": "yellow bell peppers",
+                "amount": "1",
+                "unit": "cup"
+            },
+            {
+                "ingred_name": "diced mini cucumbers",
+                "amount": "1",
+                "unit": "cup"
+            },
+            {
+                "ingred_name": "halved cherry tomatoes",
+                "amount": "1",
+                "unit": "cup"
+            }
+        ],
+        "instructions": [
+            "Combine lemon juice, olive oil, salt and pepper in a small bowl and whisk well.",
+            "Add one cup quinoa in each bowl. Top with 1/4 cup of each of the vegetables in rainbow order starting with purple, ending in red.",
+            "Pour the dressing over the salad, adjust salt and pepper, as needed."
+        ],
+        "name": "Rainbow Quinoa Salad with Lemon Dressing",
+        "author": "SkinnyTaste"
+    },
+    {
+        "original_url": "https://www.skinnytaste.com/herb-roasted-carrots/",
+        "prep_time": "15 mins",
+        "cook_time": "35 mins",
+        "ingredients": [
+            {
+                "ingred_name": "Olive oil spray",
+                "amount": null,
+                "unit": null
+            },
+            {
+                "ingred_name": "carrots",
+                "amount": "2",
+                "unit": "pounds"
+            },
+            {
+                "ingred_name": "extra-virgin olive oil",
+                "amount": "2",
+                "unit": "tablespoons"
+            },
+            {
+                "ingred_name": "minced fresh thyme leaves",
+                "amount": "1",
+                "unit": "tablespoon"
+            },
+            {
+                "ingred_name": "chopped fresh Italian parsley",
+                "amount": "\u00bc",
+                "unit": "cup"
+            },
+            {
+                "ingred_name": "garlic cloves",
+                "amount": "3",
+                "unit": null
+            },
+            {
+                "ingred_name": "kosher salt",
+                "amount": "2",
+                "unit": "teaspoons"
+            },
+            {
+                "ingred_name": "Freshly ground black pepper",
+                "amount": null,
+                "unit": null
+            }
+        ],
+        "instructions": [
+            "Preheat oven to 400F. Spray a large sheet pan with oil.",
+            "In a large bowl, toss the carrots with the olive oil.",
+            "Add the herbs, garlic, salt and pepper to taste and toss to evenly coat.",
+            "Spread the carrots in an even layer on the prepared sheet pan and roast in the oven for 35 to 38 minutes, tossing every 10 minutes, until the carrots are browned on the edges and tender.",
+            "Transfer to a serving platter and garnish with fresh parsley."
+        ],
+        "name": "Herb Roasted Carrots",
+        "author": "SkinnyTaste"
+    },
+    {
+        "original_url": "https://www.skinnytaste.com/high-protein-zucchini-omelet-for-one/",
+        "prep_time": "5 mins",
+        "cook_time": "12 mins",
+        "ingredients": [
+            {
+                "ingred_name": "olive oil",
+                "amount": "1",
+                "unit": "teaspoon"
+            },
+            {
+                "ingred_name": "red onion",
+                "amount": "1/4",
+                "unit": "cup"
+            },
+            {
+                "ingred_name": "zucchini",
+                "amount": "1",
+                "unit": "cup"
+            },
+            {
+                "ingred_name": "egg",
+                "amount": "1",
+                "unit": "large"
+            },
+            {
+                "ingred_name": "egg whites",
+                "amount": "3/4",
+                "unit": "cup"
+            },
+            {
+                "ingred_name": "Parmesan cheese",
+                "amount": "2",
+                "unit": "tablespoons"
+            },
+            {
+                "ingred_name": "kosher salt",
+                "amount": "1/4",
+                "unit": "teaspoon"
+            },
+            {
+                "ingred_name": "fresh black pepper",
+                "amount": null,
+                "unit": null
+            }
+        ],
+        "instructions": [
+            "Over medium-low heat, heat oil in a medium nonstick skillet.",
+            "Stir in onion and cook until golden, about 2 to 3 minutes.",
+            "Add zucchini and season with 1/8 teaspoon salt and black pepper, to taste and cook 3 to 4 more minutes stirring occasionally, until tender.",
+            "In a medium bowl, whisk egg, egg whites, Parmesan, 1/4 teaspoon salt and black pepper.",
+            "Add eggs to the skillet making sure eggs cover all the vegetables. Cover and cook until the eggs set, about 5 minutes.",
+            "Flip it over onto your plate and serve with hot sauce, or sriracha if desired."
+        ],
+        "name": "High-Protein Zucchini Omelet",
+        "author": "SkinnyTaste"
+    },
+    {
+        "original_url": "https://www.skinnytaste.com/savory-steel-cut-oats/",
+        "prep_time": "5 mins",
+        "cook_time": "12 mins",
+        "ingredients": [
+            {
+                "ingred_name": "quick cooking steel cut oats",
+                "amount": "\u00bc",
+                "unit": "cup"
+            },
+            {
+                "ingred_name": "Olive oil spray",
+                "amount": null,
+                "unit": null
+            },
+            {
+                "ingred_name": "raw chicken breakfast sausage",
+                "amount": "2",
+                "unit": "ounces"
+            },
+            {
+                "ingred_name": "unsalted butter",
+                "amount": "1 1/2",
+                "unit": "teaspoons"
+            },
+            {
+                "ingred_name": "baby bella mushrooms",
+                "amount": "4",
+                "unit": "medium"
+            },
+            {
+                "ingred_name": "Kosher salt",
+                "amount": null,
+                "unit": null
+            },
+            {
+                "ingred_name": "Freshly ground black pepper",
+                "amount": null,
+                "unit": null
+            },
+            {
+                "ingred_name": "Parmesan cheese",
+                "amount": "2",
+                "unit": "tablespoons"
+            },
+            {
+                "ingred_name": "egg",
+                "amount": "1",
+                "unit": "large"
+            },
+            {
+                "ingred_name": "Chopped fresh chives",
+                "amount": null,
+                "unit": null
+            }
+        ],
+        "instructions": [
+            "In a medium sized, deep microwave-safe bowl, add oats and water and cook according to package directions, about 7 to 10 minutes. You may need to adjust cook time and/or add extra water to reach your desired consistency. (I used about 2/3 cup water for creamy oats).",
+            "Meanwhile, spray a medium skillet with oil.",
+            "Remove the sausage from the casing, add to the skillet and cook over medium heat, breaking up with a wooden spoon, until just cooked through (don\u2019t overcook or it will become rubbery).",
+            "Remove sausage from skillet and place in a serving bowl, cover and set aside while you cook the mushrooms.",
+            "Add 1 teaspoon butter to the skillet. \u00a0When melted, add the mushrooms, a pinch of salt and pepper, to taste. Saut\u00e9 mushrooms for 4 minutes.",
+            "Add the sausage back to the skillet, stir to combine and cook 30 seconds.",
+            "Transfer cooked oats to a bowl, add remaining half teaspoon butter, a pinch of salt and 1 tablespoon Parmesan and stir.",
+            "Top with mushroom and sausage mixture. Cook the egg runny, or to your likie and top the bowl. ",
+            "Add the remaining tablespoon Parmesan cheese and chives, if using."
+        ],
+        "name": "Savory Steel Cut Oats",
+        "author": "SkinnyTaste"
+    },
+    {
+        "original_url": "https://www.skinnytaste.com/asian-chicken-lettuce-wraps/",
+        "prep_time": "10 mins",
+        "cook_time": "40 mins",
+        "ingredients": [
+            {
+                "ingred_name": "skinless",
+                "amount": "8",
+                "unit": "oz"
+            },
+            {
+                "ingred_name": "water chestnuts",
+                "amount": "1/4",
+                "unit": "cup"
+            },
+            {
+                "ingred_name": "dried shiitake mushrooms",
+                "amount": "1/4",
+                "unit": "cup"
+            },
+            {
+                "ingred_name": "reduced sodium soy sauce",
+                "amount": "1",
+                "unit": "tbsp"
+            },
+            {
+                "ingred_name": "dark soy sauce",
+                "amount": "1/4",
+                "unit": "tsp"
+            },
+            {
+                "ingred_name": "oyster sauce",
+                "amount": "1/2",
+                "unit": "tsp"
+            },
+            {
+                "ingred_name": "sesame oil",
+                "amount": "1 1/2",
+                "unit": "tsp"
+            },
+            {
+                "ingred_name": "rice wine or dry sherry",
+                "amount": "1",
+                "unit": "tbsp"
+            },
+            {
+                "ingred_name": "sugar",
+                "amount": "1/2",
+                "unit": "tsp"
+            },
+            {
+                "ingred_name": "freshly ground white pepper",
+                "amount": null,
+                "unit": null
+            },
+            {
+                "ingred_name": "garlic",
+                "amount": "2",
+                "unit": "cloves"
+            },
+            {
+                "ingred_name": "iceberg lettuce leaves",
+                "amount": "6",
+                "unit": null
+            },
+            {
+                "ingred_name": "diced scallions",
+                "amount": "2",
+                "unit": "tbsp"
+            },
+            {
+                "ingred_name": "hoisin sauce",
+                "amount": "4",
+                "unit": "tbsp"
+            },
+            {
+                "ingred_name": "chili sauce",
+                "amount": "1/2",
+                "unit": "tsp"
+            },
+            {
+                "ingred_name": "warm water",
+                "amount": "1",
+                "unit": "tbsp"
+            }
+        ],
+        "instructions": [
+            "Place mushrooms in hot water to soften a few minutes. Remove stems and chop fine.",
+            "Combine soy sauces, oyster sauce, 1/2 tsp sesame oil, rice wine, sugar, and pepper in a bowl.",
+            "Combine ground chicken (I put the chicken in the food processor), softened mushrooms and water chestnuts into a bowl. Pour over chicken; toss. Let marinate for 15 minutes.",
+            "Mix Spicy Hoisin Dipping Sauce ingredients in another bowl. Set aside.",
+            "Heat remaining sesame oil in a wok or large skillet over medium-high heat. Add garlic; cook until golden, about 10 seconds. Add chicken mixture; stir fry until browned, breaking the chicken up as it cooks, about 4-5 minutes.",
+            "To serve, spoon 1/4 cup of the chicken into each lettuce leaf. Garnish with scallions and a spoon a little Spicy Hoisin Dipping Sauce onto each one."
+        ],
+        "name": "Asian Chicken Lettuce Wraps",
+        "author": "SkinnyTaste"
+    },
+    {
+        "original_url": "https://www.skinnytaste.com/tortilla-soup/",
+        "prep_time": "15 mins",
+        "cook_time": "25 mins",
+        "ingredients": [
+            {
+                "ingred_name": "extra-virgin olive oil",
+                "amount": "1",
+                "unit": "tablespoon"
+            },
+            {
+                "ingred_name": "yellow onion",
+                "amount": "1",
+                "unit": "large"
+            },
+            {
+                "ingred_name": "minced garlic",
+                "amount": "1",
+                "unit": "tablespoon"
+            },
+            {
+                "ingred_name": "chili powder",
+                "amount": "2",
+                "unit": "teaspoons"
+            },
+            {
+                "ingred_name": "dried oregano",
+                "amount": "1",
+                "unit": "teaspoon"
+            },
+            {
+                "ingred_name": "crushed tomatoes",
+                "amount": "1",
+                "unit": "15-ounce can"
+            },
+            {
+                "ingred_name": "chicken or turkey stock",
+                "amount": "1",
+                "unit": "quart"
+            },
+            {
+                "ingred_name": "shredded cooked chicken or turkey meat",
+                "amount": "2",
+                "unit": "cups"
+            },
+            {
+                "ingred_name": "Kosher salt and freshly ground black pepper",
+                "amount": null,
+                "unit": null
+            },
+            {
+                "ingred_name": "corn tortillas",
+                "amount": "4",
+                "unit": "6-inch "
+            },
+            {
+                "ingred_name": "vegetable oil",
+                "amount": "3",
+                "unit": "tablespoons"
+            },
+            {
+                "ingred_name": "chopped fresh cilantro",
+                "amount": null,
+                "unit": null
+            },
+            {
+                "ingred_name": "Additional toppings: sliced avocado",
+                "amount": null,
+                "unit": null
+            }
+        ],
+        "instructions": [
+            "Preheat the oven to 350 degrees F.",
+            "In a 3-quart or larger pot, heat the oil over medium. Add the onion and cook, stirring occasionally until soft, about 5 minutes. Add the garlic, chili powder, and oregano and cook, stirring often until fragrant, about 3 minutes.",
+            "Add the tomatoes and the stock, raise the heat to medium-high, and bring to a boil then lower the heat to medium-low and simmer for 15 minutes.",
+            "While the soup is simmering, brush each tortilla with the oil, then stack on a cutting board. Cut the tortilla stack in half, then into 1/2-inch wide strips. ",
+            "Arrange the strips on a sheet pan in a single layer (you may need to use more than one pan, or bake in rounds.) Season the strips with a few pinches of salt and bake until golden and crispy, about 10 minutes.",
+            "Add the chicken or turkey meat to the soup pot and season with salt and pepper. Simmer for another 5 minutes to heat the turkey meat.",
+            "To serve, top the soup with a handful of tortilla strips and cilantro, plus optional avocado, sour cream and cheese."
+        ],
+        "name": "Tortilla Soup",
+        "author": "SkinnyTaste"
+    },
+    {
+        "original_url": "https://www.skinnytaste.com/kale-and-brussels-sprout-salad/",
+        "prep_time": "20 mins",
+        "cook_time": "0 mins",
+        "ingredients": [
+            {
+                "ingred_name": "Brussels sprouts",
+                "amount": "1/2",
+                "unit": "pound"
+            },
+            {
+                "ingred_name": "baby kale leaves",
+                "amount": "4.5",
+                "unit": "ounces"
+            },
+            {
+                "ingred_name": "extra-virgin olive oil",
+                "amount": "1/4",
+                "unit": "cup"
+            },
+            {
+                "ingred_name": "apple cider vinegar",
+                "amount": "3",
+                "unit": "tablespoons"
+            },
+            {
+                "ingred_name": "Dijon mustard",
+                "amount": "1",
+                "unit": "tablespoon"
+            },
+            {
+                "ingred_name": "pure maple syrup",
+                "amount": "1",
+                "unit": "tablespoon"
+            },
+            {
+                "ingred_name": "garlic clove",
+                "amount": "1",
+                "unit": "small"
+            },
+            {
+                "ingred_name": "kosher salt",
+                "amount": "1/4",
+                "unit": "teaspoon"
+            },
+            {
+                "ingred_name": "Freshly ground black pepper",
+                "amount": null,
+                "unit": null
+            },
+            {
+                "ingred_name": "finely grated Parmesan cheese",
+                "amount": "2/3",
+                "unit": "cup"
+            },
+            {
+                "ingred_name": "chopped pecans or walnuts",
+                "amount": "1/2",
+                "unit": "cup"
+            }
+        ],
+        "instructions": [
+            "Using a food processor, mandoline or with a knife, shred the Brussels sprouts into thin ribbons. You should have about 4 cups total.",
+            "Place in a mixing bowl with the kale.",
+            "In a jar with a fitted lid, combine the olive oil, vinegar, mustard, maple syrup, garlic, salt and pepper. Shake vigorously until emulsified.",
+            "Pour the dressing over the top of the Brussels sprouts and kale and mix until thoroughly coated.",
+            "Add the Parmesan and the nuts and toss to combine.",
+            "Transfer the mixture to a serving bowl or plate individually."
+        ],
+        "name": "Kale and Brussels Sprout Salad",
+        "author": "SkinnyTaste"
+    },
+    {
+        "original_url": "https://www.skinnytaste.com/bacon-spinach-breakfast-casserole/",
+        "prep_time": "10 mins",
+        "cook_time": "45 mins",
+        "ingredients": [
+            {
+                "ingred_name": "Cooking spray",
+                "amount": null,
+                "unit": null
+            },
+            {
+                "ingred_name": "center-cut bacon",
+                "amount": "8",
+                "unit": "slices"
+            },
+            {
+                "ingred_name": "finely diced shallots",
+                "amount": "\u00bd",
+                "unit": "cup"
+            },
+            {
+                "ingred_name": "package baby spinach",
+                "amount": null,
+                "unit": "5-ounce"
+            },
+            {
+                "ingred_name": "shredded Gruy\u00e8re cheese",
+                "amount": "8",
+                "unit": "ounces"
+            },
+            {
+                "ingred_name": "large eggs",
+                "amount": "12",
+                "unit": null
+            },
+            {
+                "ingred_name": "nonfat milk",
+                "amount": "1",
+                "unit": "cup"
+            },
+            {
+                "ingred_name": "kosher salt",
+                "amount": "\u00bd",
+                "unit": "teaspoon"
+            },
+            {
+                "ingred_name": "Freshly ground black pepper",
+                "amount": null,
+                "unit": null
+            }
+        ],
+        "instructions": [
+            "Preheat oven to 350 degrees F. Spray a 9\u201d x 13\u201d casserole dish with cooking spray and set aside.",
+            "In a large skillet, cook the bacon over medium heat until cooked through.\u00a0Using a slotted spoon, transfer the bacon to a paper towel lined plate.",
+            "Remove and discard all but 2 tablespoons of the bacon grease then add the shallots.",
+            "Saut\u00e9 the shallots until fragrant and they start to brown on the edges, about 2 minutes.",
+            "Add half the spinach and toss to mix with the shallots then add the rest and toss again.",
+            "Cook, stirring and tossing for about 3 minutes, until spinach is wilted.\u00a0 Remove the pan from heat and set aside.",
+            "In a large bowl, whisk the eggs.",
+            "Set aside 1 cup of the cheese then add the remainder to the eggs. Add the milk, salt, pepper, cooked spinach mixture and bacon then mix to thoroughly combine.",
+            "Pour egg mixture into the prepared dish then sprinkle remaining cheese evenly over the top.",
+            "Bake for 35 minutes, then move the oven rack to the second slot closest to the top, switch the oven to broil and cook an additional 2-3 minutes, until browned, watching closely to make sure it doesn\u2019t burn.",
+            "Allow to cool for 10 minutes then cut into 8 pieces and serve immediately."
+        ],
+        "name": "Bacon Spinach Breakfast Casserole with Gruy\u00e8re",
+        "author": "SkinnyTaste"
+    },
+    {
+        "original_url": "https://www.skinnytaste.com/air-fryer-chicken-thighs/",
+        "prep_time": "5 mins",
+        "cook_time": "24 mins",
+        "ingredients": [
+            {
+                "ingred_name": "chicken thighs",
+                "amount": "6",
+                "unit": null
+            },
+            {
+                "ingred_name": "lemon",
+                "amount": "1",
+                "unit": null
+            },
+            {
+                "ingred_name": "kosher salt",
+                "amount": "1",
+                "unit": "teaspoon"
+            },
+            {
+                "ingred_name": "black pepper",
+                "amount": "1/4",
+                "unit": "teaspoon"
+            },
+            {
+                "ingred_name": "garlic powder",
+                "amount": "1",
+                "unit": "teaspoon"
+            },
+            {
+                "ingred_name": "onion powder",
+                "amount": "1",
+                "unit": "teaspoon"
+            },
+            {
+                "ingred_name": "sweet paprika",
+                "amount": "1/2",
+                "unit": "teaspoon"
+            },
+            {
+                "ingred_name": "dried herbs ",
+                "amount": "1/2",
+                "unit": "teaspoon"
+            }
+        ],
+        "instructions": [
+            "Season the chicken with the juice of 1/2 of the lemon, then season with remaining spices on both sides.",
+            "Rub the seasoning well all over the chicken then transfer to the air fryer, skin side down.",
+            "Air fry 400F 12 minutes on each side, until golden and crispy and cooked through in the center."
+        ],
+        "name": "Air Fryer Chicken Thighs",
+        "author": "SkinnyTaste"
+    },
+    {
+        "original_url": "https://www.skinnytaste.com/healthy-chocolate-chip-oat-cookies/",
+        "prep_time": "10 mins",
+        "cook_time": "10 mins",
+        "ingredients": [
+            {
+                "ingred_name": "quick cooking rolled oats",
+                "amount": "1",
+                "unit": "cup"
+            },
+            {
+                "ingred_name": "almond flour",
+                "amount": "1/2",
+                "unit": "cup"
+            },
+            {
+                "ingred_name": "of honey",
+                "amount": "1/4",
+                "unit": "cup"
+            },
+            {
+                "ingred_name": "large egg",
+                "amount": "1",
+                "unit": null
+            },
+            {
+                "ingred_name": "melted coconut oil*",
+                "amount": "1/4",
+                "unit": "cup"
+            },
+            {
+                "ingred_name": "vanilla extract",
+                "amount": "1",
+                "unit": "teaspoon"
+            },
+            {
+                "ingred_name": "baking powder",
+                "amount": "1/2",
+                "unit": "teaspoon"
+            },
+            {
+                "ingred_name": "kosher salt",
+                "amount": "1/4",
+                "unit": "teaspoon"
+            },
+            {
+                "ingred_name": "sugar free dark chocolate chips",
+                "amount": "1/2",
+                "unit": "cup"
+            }
+        ],
+        "instructions": [
+            "Preheat your oven to 350 degrees F. Line 2 baking sheets with parchment paper.",
+            "In a large mixing bowl, combine the rolled oats, almond flour, baking powder and salt and mix.",
+            "Add the honey, egg, melted coconut oil, vanilla extract and egg and mix well until the ingredients are well combined. Stir in the dark chocolate chips.",
+            "Drop the dough by level tablespoonfuls onto the prepared baking sheets.",
+            "Bake the cookies for 8-10 minutes, or until they are lightly golden brown.",
+            "Let the cookies cool on the baking sheet for a few minutes, then transfer them to a wire rack to cool completely. Makes 24."
+        ],
+        "name": "Healthy Chocolate Chip Oat Cookies",
+        "author": "SkinnyTaste"
+    },
+    {
+        "original_url": "https://www.skinnytaste.com/how-to-make-an-epic-charcuterie-and-cheese-board/",
+        "prep_time": "30 mins",
+        "cook_time": "0 mins",
+        "ingredients": [
+            {
+                "ingred_name": "variety of sliced cured meats and salumi such as Sweet Sopressata",
+                "amount": null,
+                "unit": null
+            },
+            {
+                "ingred_name": "variety of soft and hard cheese options such a Brie",
+                "amount": null,
+                "unit": null
+            },
+            {
+                "ingred_name": "cured olives and colorful antipasti",
+                "amount": null,
+                "unit": null
+            },
+            {
+                "ingred_name": "roasted and fresh veggies on the side",
+                "amount": null,
+                "unit": null
+            },
+            {
+                "ingred_name": "spreads, jams and mustards with with a variety of crackers and bread sticks",
+                "amount": null,
+                "unit": null
+            },
+            {
+                "ingred_name": "a colorful variety of fresh and dried fruit such as grapes",
+                "amount": null,
+                "unit": null
+            },
+            {
+                "ingred_name": "variety of nuts ",
+                "amount": null,
+                "unit": null
+            },
+            {
+                "ingred_name": "fresh herb sprigs such as mint or rosemary",
+                "amount": null,
+                "unit": null
+            }
+        ],
+        "instructions": [
+            "Grab a large platter or two, you can use cutting boards, ceramic platters, slate cheese boards, marble slabs, etc.",
+            "Artfully arrange where you want your cheese selection and jars, bowls of olives, jams, and antipasti to go, then place varieties of meat slices and rolled up meats around.",
+            "Scatter crackers and bread sticks to fill up space, then add your fruit, nuts, and herbs to make keep the colors balanced and beautiful."
+        ],
+        "name": "How To Make A Charcuterie Board",
+        "author": "SkinnyTaste"
+    },
+    {
+        "original_url": "https://www.skinnytaste.com/oysters-rockefeller/",
+        "prep_time": "20 mins",
+        "cook_time": "10 mins",
+        "ingredients": [
+            {
+                "ingred_name": "oysters",
+                "amount": "24",
+                "unit": "medium"
+            },
+            {
+                "ingred_name": "extra virgin olive oil",
+                "amount": "1/2",
+                "unit": "tablespoon"
+            },
+            {
+                "ingred_name": "shallots",
+                "amount": "2",
+                "unit": null
+            },
+            {
+                "ingred_name": "fresh baby spinach",
+                "amount": "9",
+                "unit": "ounces"
+            },
+            {
+                "ingred_name": "1/3 less fat cream cheese",
+                "amount": "2",
+                "unit": "ounces"
+            },
+            {
+                "ingred_name": "half & half cream",
+                "amount": "3",
+                "unit": "tablespoons"
+            },
+            {
+                "ingred_name": "grated Pecorino Romano",
+                "amount": "3",
+                "unit": "tablespoons"
+            },
+            {
+                "ingred_name": "plain or gluten-free panko crumbs",
+                "amount": "1/4",
+                "unit": "cup"
+            }
+        ],
+        "instructions": [
+            "If shucking them yourself, rinse and clean the oysters.",
+            "With gloved hands over a dish towel, carefully open the oysters and using an oyster knife to cut under the oyster releasing it from the shell.",
+            "Toss the top shell and place the open oysters on 1 or 2 sheet pans depending on the size and refrigerate until needed.",
+            "In a large skillet over medium heat 1/2 tablespoon olive oil and shallots and cook until tender, 3 to 4 minutes.",
+            "Add spinach, season with a pinch of salt and pepper, and mix until the spinach wilts down, about 2 minutes.",
+            "Add the cream cheese, half & half and Pecorino cheese. Mix well until cream cheese is melted and resembles creamed spinach. Refrigerate until completely cool or freeze 10 minutes.",
+            "Reheat the oven to broil on high with the rack 6 inches from the heating element.",
+            "Place one tablespoon of the spinach mixture on top of each oyster. Top each with 1/2 teaspoon panko bread crumbs.",
+            "Broil 5 to 7 minutes or until golden brown.\u00a0 Serve right away."
+        ],
+        "name": "Oysters Rockefeller\u00a0",
+        "author": "SkinnyTaste"
+    },
+    {
+        "original_url": "https://www.skinnytaste.com/sheet-pan-thanksgiving-dinner/",
+        "prep_time": "20 mins",
+        "cook_time": "50 mins",
+        "ingredients": [
+            {
+                "ingred_name": "boneless turkey breast",
+                "amount": "1",
+                "unit": null
+            },
+            {
+                "ingred_name": "kosher salt",
+                "amount": "2",
+                "unit": "teaspoons"
+            },
+            {
+                "ingred_name": "freshly ground black pepper",
+                "amount": "\u00bd",
+                "unit": "teaspoon"
+            },
+            {
+                "ingred_name": "garlic cloves",
+                "amount": "2",
+                "unit": "large"
+            },
+            {
+                "ingred_name": "light mayonnaise",
+                "amount": "\u00bc",
+                "unit": "cup"
+            },
+            {
+                "ingred_name": "za\u2019atar",
+                "amount": "2\u00bd",
+                "unit": "tablespoons"
+            },
+            {
+                "ingred_name": "sweet potatoes",
+                "amount": "1",
+                "unit": "pound"
+            },
+            {
+                "ingred_name": "extra-virgin olive oil",
+                "amount": "3",
+                "unit": "tablespoons"
+            },
+            {
+                "ingred_name": "maple syrup",
+                "amount": "1",
+                "unit": "tablespoon"
+            },
+            {
+                "ingred_name": "of crushed red pepper flakes",
+                "amount": null,
+                "unit": "Pinch"
+            },
+            {
+                "ingred_name": "brussels sprouts",
+                "amount": "1",
+                "unit": "pound"
+            },
+            {
+                "ingred_name": "cumin seeds",
+                "amount": "\u00bd",
+                "unit": "teaspoon"
+            },
+            {
+                "ingred_name": "Fresh lemon juice",
+                "amount": null,
+                "unit": null
+            }
+        ],
+        "instructions": [
+            "Heat the oven to 400\u00baF. If the turkey breast comes tied, untie it.",
+            "Pat the meat dry with paper towels. Season the turkey all over with 1\u00bd teaspoons of the salt and the black pepper, then rub all over with the garlic.",
+            "In a small bowl, stir together the mayonnaise and za\u2019atar.",
+            "Transfer 2 tablespoons of the za\u2019atar mayo to a separate small bowl and brush that all over the turkey.",
+            "Set the remaining za\u2019atar mayo aside. Let the turkey sit at room temperature for 15 minutes while you prepare everything else.",
+            "In a large bowl, toss together sweet potatoes, 1 tablespoon of the oil, the maple syrup, \u00bc teaspoon of the salt, and the red pepper flakes.",
+            "Place turkey on a rimmed sheet pan and arrange the potatoes in a single layer around it. Roast for 20 minutes.",
+            "In the same bowl (no need to wash it), toss the brussels sprouts with 2 tablespoons of the oil, the cumin seeds, and the remaining \u00bc teaspoon salt.",
+            "Give the potatoes a toss after roasting for 20 minutes, and push the wedges to one side of the pan to make room for the brussels sprouts.",
+            "Add the sprouts and continue to roast until the sprouts and potatoes are golden brown and a thermometer inserted in the thickest part of the turkey registers 145\u00baF, 20 to 30 minutes longer (for a total turkey roasting time of 40 to 50 minutes).",
+            "Allow the meat to rest for 10 minutes before slicing. Discard turkey skin (to reduce calories, if desired as the nutritional info reflects no skin) and carve.",
+            "While the turkey is resting, season reserved za\u2019atar mayo to taste and add a little more oil and salt, if needed. Season to taste with lemon juice. Serve the za\u2019atar mayo alongside the turkey and vegetables."
+        ],
+        "name": "Sheet Pan Thanksgiving",
+        "author": "SkinnyTaste"
+    },
+    {
+        "original_url": "https://www.skinnytaste.com/butternut-squash-galette/",
+        "prep_time": "30 mins",
+        "cook_time": "1 hr",
+        "ingredients": [
+            {
+                "ingred_name": "yellow onion",
+                "amount": "2",
+                "unit": "large"
+            },
+            {
+                "ingred_name": "Kosher salt",
+                "amount": "1/2",
+                "unit": "teaspoon"
+            },
+            {
+                "ingred_name": "extra virgin olive oil",
+                "amount": "2",
+                "unit": "tablespoons"
+            },
+            {
+                "ingred_name": "refrigerated pie crust dough",
+                "amount": null,
+                "unit": "11-inch"
+            },
+            {
+                "ingred_name": "peeled and sliced butternut squash",
+                "amount": "12",
+                "unit": "ounces"
+            },
+            {
+                "ingred_name": "Freshly ground black pepper",
+                "amount": null,
+                "unit": null
+            },
+            {
+                "ingred_name": "grated Parmesan cheese",
+                "amount": "1/2",
+                "unit": "cup"
+            },
+            {
+                "ingred_name": "fresh thyme leaves",
+                "amount": "2",
+                "unit": "teaspoons"
+            },
+            {
+                "ingred_name": "egg",
+                "amount": "1",
+                "unit": "large"
+            }
+        ],
+        "instructions": [
+            "Preheat the oven to 400 degrees F and line a baking sheet with parchment paper.",
+            "Peel the butternut squash and slice the thinner end, which is solid and has no seeds, with a mandolin into 1/8-inch thick slices, so you get perfect rounds.",
+            "Cut until you have 12 ounces. Set the rest aside for another use.",
+            "Heat a cast-iron or other heavy skillet over medium and add 1 tablespoon of olive oil to the pan and swirl to coat.",
+            "Add the onions and 1/4 teaspoon of salt. Lower the heat to medium-low heat, and cook, stirring often until caramelized, about 30 minutes.",
+            "Remove from the pan and set aside to cool.",
+            "In a medium mixing bowl, toss the sliced butternut with the remaining olive oil, another 1/4 teaspoon of salt, half of the Parmesan cheese, half of the thyme and a few cracks of black pepper.",
+            "Roll the pastry out on a parchment paper lined sheet pan and prick the pastry with a fork in several places, avoiding the outer 1 1/2-inch border.",
+            "Spread 1/3 of the caramelized onions on the bottom of the crust, again avoiding the outer border.",
+            "Arrange the sliced butternut on top of the onions in several concentric layers, nestling the remaining half of the onions between the layers of butternut squash.",
+            "Sprinkle the top with the remaining Parmesan and thyme leaves.",
+            "Fold the edges of the pastry up onto the butternut squash, making pleats as you move around the circle. Brush the edges of the brush with the egg.",
+            "Tent with foil, tightly over the baking sheet and bake for 30 minutes, then remove the foil and bake until the pastry is golden-brown and the butternut is tender, about 20 to 30 minutes more. (check the center of the squash with a toothpick to make sure it's tender)",
+            "Slice into 6 pieces and serve warm."
+        ],
+        "name": "Butternut Squash Galette",
+        "author": "SkinnyTaste"
+    },
+    {
+        "original_url": "https://www.skinnytaste.com/spicy-vodka-chicken-parmesan/",
+        "prep_time": "15 mins",
+        "cook_time": "15 mins",
+        "ingredients": [
+            {
+                "ingred_name": "vodka sauce",
+                "amount": "\u00be",
+                "unit": "cup"
+            },
+            {
+                "ingred_name": "olive oil spray",
+                "amount": null,
+                "unit": null
+            },
+            {
+                "ingred_name": "boneless chicken breasts",
+                "amount": "2",
+                "unit": "8-ounce"
+            },
+            {
+                "ingred_name": "kosher salt",
+                "amount": "1",
+                "unit": "teaspoon"
+            },
+            {
+                "ingred_name": "egg",
+                "amount": "1",
+                "unit": "large"
+            },
+            {
+                "ingred_name": "seasoned breadcrumbs",
+                "amount": "1",
+                "unit": "cup"
+            },
+            {
+                "ingred_name": "fresh mozzarella cheese",
+                "amount": "4",
+                "unit": "slices"
+            },
+            {
+                "ingred_name": "sliced hot jarred cherry peppers",
+                "amount": "1/2",
+                "unit": "cup"
+            }
+        ],
+        "instructions": [
+            "Heat the vodka sauce and add a little water to thin if it\u2019s too thick.",
+            "Pound the thicker end of the chicken lightly to make thinner. Season with salt and pepper.",
+            "Place in the egg, then into the breadcrumbs and pat well with the back of a fork.",
+            "Shake and transfer to the air fryer basket or oven. Repeat with remaining cutlets.",
+            "Spray both sides of the chicken with oil then air fryer 400F 7 to 8 minutes, turning halfway, in batches as needed.",
+            "Spoon the vodka sauce over the cutlets then top with half of the cherry peppers.",
+            "Top each cutlet with 1 ounce mozzarella, then sprinkle with remaining spicy cherry peppers. Air fry 300F until the cheese melts and the chicken is cooked through, about 1 to 2 minutes. Serve hot.",
+            "Place foil on a sheet pan. Preheat oven to 450F.",
+            "Bake 20 to 25 minutes, until golden and cooked through in the center. No need to turn.",
+            "Spoon the vodka sauce over the cutlets then top with half of the cherry peppers.",
+            "Top each cutlet with 1 ounce mozzarella, then sprinkle with remaining spicy cherry peppers.",
+            "Bake until the cheese melts and the chicken is cooked through, about 5 minutes. Serve hot."
+        ],
+        "name": "Spicy Vodka Chicken Parmesan",
+        "author": "SkinnyTaste"
+    },
+    {
+        "original_url": "https://www.skinnytaste.com/spinach-dip-stuffed-mushrooms/",
+        "prep_time": "15 mins",
+        "cook_time": "25 mins",
+        "ingredients": [
+            {
+                "ingred_name": "Olive oil spray",
+                "amount": null,
+                "unit": null
+            },
+            {
+                "ingred_name": "baby bella mushrooms",
+                "amount": "1 \u00bd",
+                "unit": "pounds"
+            },
+            {
+                "ingred_name": "Kosher salt",
+                "amount": null,
+                "unit": null
+            },
+            {
+                "ingred_name": "Freshly ground black pepper",
+                "amount": null,
+                "unit": null
+            },
+            {
+                "ingred_name": "frozen chopped spinach",
+                "amount": "10",
+                "unit": "ounces"
+            },
+            {
+                "ingred_name": "cream cheese",
+                "amount": "4",
+                "unit": "ounces"
+            },
+            {
+                "ingred_name": "freshly grated parmesan cheese",
+                "amount": "\u00bd",
+                "unit": "cup"
+            },
+            {
+                "ingred_name": "part-skim mozzarella cheese",
+                "amount": "1",
+                "unit": "cup"
+            },
+            {
+                "ingred_name": "chopped scallions",
+                "amount": "\u00bc",
+                "unit": "cup"
+            },
+            {
+                "ingred_name": "garlic",
+                "amount": "2",
+                "unit": "cloves"
+            },
+            {
+                "ingred_name": "light sour cream",
+                "amount": "\u00bc",
+                "unit": "cup"
+            },
+            {
+                "ingred_name": "Italian seasoned breadcrumbs",
+                "amount": "2",
+                "unit": "tablespoons"
+            }
+        ],
+        "instructions": [
+            "Preheat oven to 400F. Spray 2 sheet pans with oil and set aside.",
+            "Gently remove the stems from the mushrooms and place stem-side down on the sheet pan.",
+            "Spray with olive oil and sprinkle with 2 pinches of salt and pepper, to taste.",
+            "Finely chop stems and place them in a large mixing bowl.",
+            "To the large bowl, add the spinach, cream cheese, \u00bd cup parmesan cheese, mozzarella, scallions, garlic, sour cream, \u00bc teaspoon salt and pepper to taste. Mix with a fork to thoroughly combine.",
+            "Flip mushrooms stem-side up and stuff each mushroom with about 1 tablespoon filling, depending on the mushroom size, pressing mixture into the cavity of the mushroom and a small mound on top. ",
+            "In a small bowl, combine the breadcrumbs and remaining 2 tablespoons parmesan cheese.",
+            "Top each stuffed mushroom with a sprinkle of breadcrumb mixture, gently spray tops with olive oil and bake for 25-30 minutes, rotating pans halfway through cooking to allow for even browning.",
+            "Allow to cool slightly and with a spatula, transfer to serving platter to serve warm or at room temperature."
+        ],
+        "name": "Spinach Dip Stuffed Mushrooms",
+        "author": "SkinnyTaste"
+    },
+    {
+        "original_url": "https://www.skinnytaste.com/stuffed-butternut-squash/",
+        "prep_time": "15 mins",
+        "cook_time": "1 hr",
+        "ingredients": [
+            {
+                "ingred_name": "butternut squash",
+                "amount": "1",
+                "unit": "large"
+            },
+            {
+                "ingred_name": "olive oil",
+                "amount": "1",
+                "unit": "tablespoon"
+            },
+            {
+                "ingred_name": "kosher salt",
+                "amount": "1/2",
+                "unit": "teaspoon"
+            },
+            {
+                "ingred_name": "freshly ground black pepper",
+                "amount": null,
+                "unit": null
+            },
+            {
+                "ingred_name": "uncooked wild rice",
+                "amount": "1/2",
+                "unit": "cup"
+            },
+            {
+                "ingred_name": "water or broth",
+                "amount": "1 1/2",
+                "unit": "cups"
+            },
+            {
+                "ingred_name": "olive oil",
+                "amount": "1",
+                "unit": "tablespoon"
+            },
+            {
+                "ingred_name": "fresh sweet Italian chicken or turkey sausage",
+                "amount": "1/2",
+                "unit": "pound"
+            },
+            {
+                "ingred_name": "loosely packed sliced mushrooms",
+                "amount": "2",
+                "unit": "cups"
+            },
+            {
+                "ingred_name": "garlic",
+                "amount": "2",
+                "unit": "cloves"
+            },
+            {
+                "ingred_name": "kosher salt",
+                "amount": "1/2",
+                "unit": "teaspoon"
+            },
+            {
+                "ingred_name": "loosely packed shredded kale",
+                "amount": "2",
+                "unit": "cups"
+            },
+            {
+                "ingred_name": "apple juice sweetened cranberries",
+                "amount": "1/4",
+                "unit": "cup"
+            },
+            {
+                "ingred_name": "chopped fresh thyme leaves",
+                "amount": "1",
+                "unit": "tablespoon"
+            },
+            {
+                "ingred_name": "Freshly ground black pepper",
+                "amount": null,
+                "unit": null
+            }
+        ],
+        "instructions": [
+            "Preheat the oven to 400 degrees F and line a baking sheet with parchment paper.",
+            "Spray the cut sides of the squash with olive oil and sprinkle with salt and pepper. Place them cut-side down on the baking sheet and bake for 15 minutes, then flip and bake another 30-40 minutes, until fork tender.",
+            " In a small lidded saucepan, combine the rice, cooking liquid and salt and place over high heat. Bring to a boil, turn the heat down to low and simmer for 35-40 minutes, until tender. Drain any excess liquid and set aside.\u00a0",
+            "Heat 1 tablespoon olive oil in a medium skillet over medium heat. Crumble the sausage into a skillet and cook until lightly browned, but still pink in some areas.",
+            "Add the mushrooms, garlic and a pinch of salt, and cook, stirring until the mushrooms are soft, about 2 minutes. Stir in the kale, and cook until completely wilted, about 2 minutes.",
+            "Add the cranberries and 1 tablespoon of the chopped thyme and stir to combine. Season with salt and pepper and remove from heat. Toss with the prepared rice.",
+            "Once the squash is done, set it aside until cool enough to safely handle.",
+            "Cupping the sides of the squash with one hand so that it doesn\u2019t tear, spoon out some of the flesh, leaving a 3/4\u201d border around the sides and bottom.",
+            " Dice the remaining squash in small pieces and mix with the rice and sausage.",
+            "Divide the sausage mixture between the hollowed out squash halves and fill to the top, mounding in the middle if there is extra. Return to the oven to cook for another 5 minutes.",
+            "Arrange on a platter and serve immediately."
+        ],
+        "name": "Stuffed Butternut Squash with Wild Rice and Sausage",
+        "author": "SkinnyTaste"
+    },
+    {
+        "original_url": "https://www.skinnytaste.com/slow-cooker-steel-cut-oats/",
+        "prep_time": "5 mins",
+        "cook_time": "2 hrs",
+        "ingredients": [
+            {
+                "ingred_name": null,
+                "amount": "1",
+                "unit": "cup"
+            },
+            {
+                "ingred_name": "water",
+                "amount": "2",
+                "unit": "cups"
+            },
+            {
+                "ingred_name": "pure maple syrup",
+                "amount": "1",
+                "unit": "tablespoon"
+            },
+            {
+                "ingred_name": "cinnamon",
+                "amount": "1/4",
+                "unit": "teaspoon"
+            },
+            {
+                "ingred_name": "egg whites",
+                "amount": "1/3",
+                "unit": "cup"
+            },
+            {
+                "ingred_name": "mixed fresh berries",
+                "amount": "2",
+                "unit": "cups"
+            },
+            {
+                "ingred_name": "ripe banana",
+                "amount": "1",
+                "unit": "medium"
+            },
+            {
+                "ingred_name": "chopped pecans or walnuts",
+                "amount": "1/4",
+                "unit": "cup"
+            }
+        ],
+        "instructions": [
+            "Spray the slow cooker with oil to prevent sticking. Place oats, water, maple syrup, cinnamon and egg whites into the slow cooker and stir.",
+            "Add the berries and bananas.",
+            "Cook covered on low 2 hours.",
+            "Serve topped with pecans, and optional maple syrup on top.",
+            "You can simmer this on the stove in a medium pot on low heat about 7 to 10 minutes, stirring."
+        ],
+        "name": "Slow Cooker Steel Cut Oats",
+        "author": "SkinnyTaste"
     }
 ]

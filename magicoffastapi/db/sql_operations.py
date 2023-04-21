@@ -1,5 +1,15 @@
 from datetime import datetime
-from sqlalchemy import Connection, select, insert, Result, delete, update, Select, or_
+from sqlalchemy import (
+    Connection,
+    select,
+    insert,
+    Result,
+    delete,
+    update,
+    Select,
+    or_,
+    Row,
+)
 from magicoffastapi.schemas.recipe import (
     Recipe,
     BaseRecipe,

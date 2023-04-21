@@ -1,5 +1,6 @@
 import pytest
 import json
+from os import scandir
 from datetime import datetime
 from sqlalchemy import MetaData, create_engine
 from starlette.testclient import TestClient
@@ -20,12 +21,13 @@ metadata.create_all(bind=engine)
 # insert sample data
 with engine.connect() as conn:
     ts = datetime.now()
-    with open("tests/recipe_samples.json", "r") as f:
+    with open("tests/full-dataset.json", "r") as f:
         json_data = json.load(f)
-        for recipe_dict in json_data:
-            recipe = BaseRecipe(**recipe_dict)
+        for recipe in json_data:
+            print(recipe["name"])
+            recipe = BaseRecipe(**recipe)
             if create_recipe(recipe, conn) is None:
-                raise Exception("Encoding error")
+                raise Exception("Encoding error:")
 
 
 @pytest.fixture

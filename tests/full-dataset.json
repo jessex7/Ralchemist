@@ -418,7 +418,7 @@
             },
             {
                 "ingred_name": "olive oil",
-                "amount": "1 1/2",
+                "amount": 1.5,
                 "unit": "tbsp",
                 "notes": "extra virgin"
             },
@@ -998,7 +998,7 @@
             },
             {
                 "ingred_name": "reduced fat Mexican cheese blend",
-                "amount": "1 1/3",
+                "amount": 1.333,
                 "unit": "cup",
                 "notes": null
             },
@@ -1187,7 +1187,7 @@
             },
             {
                 "ingred_name": "part skim mozzarella cheese",
-                "amount": "1 1/2",
+                "amount": 1.5,
                 "unit": "ounces",
                 "notes": null
             },
@@ -1725,7 +1725,7 @@
             },
             {
                 "ingred_name": "vegetable broth",
-                "amount": "1 1/3",
+                "amount": 1.333,
                 "unit": "cups",
                 "notes": null
             },
@@ -1737,13 +1737,13 @@
             },
             {
                 "ingred_name": "diced mango mango",
-                "amount": "1 1/2",
+                "amount": 1.5,
                 "unit": "cups",
                 "notes": "from 1"
             },
             {
                 "ingred_name": "diced mini cucumbers",
-                "amount": "1 1/2",
+                "amount": 1.5,
                 "unit": "cups",
                 "notes": "from 3"
             },
@@ -1832,7 +1832,7 @@
         "ingredients": [
             {
                 "ingred_name": "cooked quinoa",
-                "amount": "1 1/2",
+                "amount": 1.5,
                 "unit": "cups",
                 "notes": "red or tricolor"
             },
@@ -1962,7 +1962,7 @@
             },
             {
                 "ingred_name": "seasoned salt",
-                "amount": "1 1/4",
+                "amount": 1.25,
                 "unit": "tsp",
                 "notes": "I used Lawry\u2019s Fire Roasted Chili & Garlic"
             },
@@ -1980,7 +1980,7 @@
             },
             {
                 "ingred_name": "4 oz shredded romaine lettuce",
-                "amount": "2 1/2",
+                "amount": 2.5,
                 "unit": "cups",
                 "notes": null
             },
@@ -2063,7 +2063,7 @@
         "ingredients": [
             {
                 "ingred_name": "whole raw cashews",
-                "amount": "1 1\u20444",
+                "amount": 1.25,
                 "unit": "cups",
                 "notes": "about 185 g"
             },
@@ -2258,7 +2258,7 @@
             },
             {
                 "ingred_name": "reduced-fat shredded sharp cheddar cheese",
-                "amount": "1-1/2",
+                "amount": 1.5,
                 "unit": "cups",
                 "notes": "4 ounces "
             },
@@ -2270,8 +2270,8 @@
             },
             {
                 "ingred_name": "chopped green onions",
-                "amount": "1/2\u00a0",
-                "unit": "cup\u00a0",
+                "amount": 0.5,
+                "unit": "cup",
                 "notes": null
             },
             {
@@ -2358,7 +2358,7 @@
         "ingredients": [
             {
                 "ingred_name": "sweet potatoes",
-                "amount": "2 1/2",
+                "amount": 2.5,
                 "unit": "pounds",
                 "notes": "about 4 to 6 medium total*"
             },
@@ -2513,7 +2513,7 @@
             },
             {
                 "ingred_name": "vanilla",
-                "amount": "1 1/2",
+                "amount": 1.5,
                 "unit": "tsp",
                 "notes": null
             },
@@ -2649,7 +2649,7 @@
             },
             {
                 "ingred_name": "kosher salt",
-                "amount": "1 1/4",
+                "amount": 1.25,
                 "unit": "teaspoon",
                 "notes": "divided"
             },
@@ -2767,13 +2767,13 @@
             },
             {
                 "ingred_name": "olive oil",
-                "amount": "1 1/2",
+                "amount": 1.5,
                 "unit": "tablespoons",
                 "notes": null
             },
             {
                 "ingred_name": "Kosher salt and freshly ground black pepper",
-                "amount": "1 1/2",
+                "amount": 1.5,
                 "unit": "teaspoons",
                 "notes": "to taste"
             },
@@ -2992,7 +2992,7 @@
             },
             {
                 "ingred_name": "baking powder",
-                "amount": "3 1/2",
+                "amount": 3.5,
                 "unit": "teaspoons",
                 "notes": null
             },
@@ -3070,7 +3070,7 @@
             },
             {
                 "ingred_name": "kosher salt",
-                "amount": "1 1/2",
+                "amount": 1.5,
                 "unit": "teaspoons",
                 "notes": null
             },
@@ -3082,7 +3082,7 @@
             },
             {
                 "ingred_name": "reduced-sodium chicken broth",
-                "amount": "2 1/2",
+                "amount": 2.5,
                 "unit": "cups",
                 "notes": null
             },
@@ -3513,7 +3513,7 @@
             },
             {
                 "ingred_name": "Worcestershire sauce",
-                "amount": "1 1/2",
+                "amount": 1.5,
                 "unit": "teaspoons",
                 "notes": null
             },
@@ -3679,7 +3679,7 @@
             },
             {
                 "ingred_name": "shredded part-skim mozzarella",
-                "amount": "1 1/3",
+                "amount": 1.333,
                 "unit": "cups",
                 "notes": null
             }
@@ -3708,7 +3708,7 @@
             },
             {
                 "ingred_name": "unbleached all purpose flour",
-                "amount": "1 1/4",
+                "amount": 1.25,
                 "unit": "cups",
                 "notes": null
             },
@@ -4015,13 +4015,13 @@
         "ingredients": [
             {
                 "ingred_name": "onion powder",
-                "amount": "1 1/2",
+                "amount": 1.5,
                 "unit": "teaspoons",
                 "notes": null
             },
             {
                 "ingred_name": "garlic powder",
-                "amount": "1 1/2",
+                "amount": 1.5,
                 "unit": "teaspoons",
                 "notes": null
             },
@@ -4109,7 +4109,7 @@
         "ingredients": [
             {
                 "ingred_name": "broccoli florets",
-                "amount": "1-1/2",
+                "amount": 1.5,
                 "unit": "lbs",
                 "notes": "(3 large heads) chopped"
             },
@@ -4607,7 +4607,7 @@
             },
             {
                 "ingred_name": "unsalted butter",
-                "amount": "1 1/2",
+                "amount": 1.5,
                 "unit": "teaspoons",
                 "notes": null
             },
@@ -4791,7 +4791,7 @@
             },
             {
                 "ingred_name": "sesame oil",
-                "amount": "1 1/2",
+                "amount": 1.5,
                 "unit": "tsp",
                 "notes": null
             },
@@ -5099,7 +5099,7 @@
             },
             {
                 "ingred_name": "small-diced celery",
-                "amount": "1 1/2",
+                "amount": 1.5,
                 "unit": "cups",
                 "notes": "4 stalks"
             },
@@ -5135,7 +5135,7 @@
             },
             {
                 "ingred_name": "Old Bay seasoning",
-                "amount": "1 1/2",
+                "amount": 1.5,
                 "unit": "tsp",
                 "notes": null
             },
@@ -5176,7 +5176,7 @@
                 "notes": "lightly beaten"
             },
             {
-                "ingred_name": "Zesty avocado cilantro dressing",
+                "ingred_name": "blank4",
                 "amount": null,
                 "unit": null,
                 "notes": null
@@ -5360,7 +5360,7 @@
             },
             {
                 "ingred_name": "salt",
-                "amount": "1 1/4",
+                "amount": 1.25,
                 "unit": "teaspoons",
                 "notes": null
             },
@@ -5424,7 +5424,7 @@
         "ingredients": [
             {
                 "ingred_name": "organic boneless skinless chicken breasts, cut 1/2 inch cubes",
-                "amount": "1 1/4",
+                "amount": 1.25,
                 "unit": "pounds",
                 "notes": "from 3 small"
             },
@@ -5809,7 +5809,7 @@
             },
             {
                 "ingred_name": "canned pumpkin",
-                "amount": "1 1/2",
+                "amount": 1.5,
                 "unit": "cups",
                 "notes": "not pumpkin pie filling"
             },
@@ -5827,7 +5827,7 @@
             },
             {
                 "ingred_name": "vanilla extract",
-                "amount": "1 1/2",
+                "amount": 1.5,
                 "unit": "tsp",
                 "notes": null
             },
@@ -5987,7 +5987,7 @@
             },
             {
                 "ingred_name": "balsamic vinegar",
-                "amount": "1 1/2",
+                "amount": 1.5,
                 "unit": "tablespoons",
                 "notes": null
             },
@@ -5999,7 +5999,7 @@
             },
             {
                 "ingred_name": "chopped romaine hearts",
-                "amount": "1 1/2",
+                "amount": 1.5,
                 "unit": "cups",
                 "notes": null
             },
@@ -6224,7 +6224,7 @@
             },
             {
                 "ingred_name": "extra virgin olive oil",
-                "amount": "1 1/2",
+                "amount": 1.5,
                 "unit": "tablespoons",
                 "notes": null
             },
@@ -6532,7 +6532,7 @@
             },
             {
                 "ingred_name": "dried thyme",
-                "amount": "1 1/2",
+                "amount": 1.5,
                 "unit": "teaspoons",
                 "notes": null
             },
@@ -6651,7 +6651,7 @@
             },
             {
                 "ingred_name": "kosher salt",
-                "amount": "1 1/2",
+                "amount": 1.5,
                 "unit": "teaspoons",
                 "notes": null
             },
@@ -6805,7 +6805,7 @@
             },
             {
                 "ingred_name": "shredded sharp cheddar",
-                "amount": "1-1/4",
+                "amount": 1.25,
                 "unit": "cups",
                 "notes": null
             },
@@ -6893,7 +6893,7 @@
             },
             {
                 "ingred_name": "ground chicken",
-                "amount": "1 1/4",
+                "amount": 1.25,
                 "unit": "lb",
                 "notes": null
             },
@@ -6946,7 +6946,7 @@
                 "notes": null
             },
             {
-                "ingred_name": "skinny blue cheese dressing",
+                "ingred_name": "Blank1",
                 "amount": 0.25,
                 "unit": "cup",
                 "notes": "optional"
@@ -7182,7 +7182,7 @@
         "cook_time": 15.0,
         "ingredients": [
             {
-                "ingred_name": "hard boiled eggs",
+                "ingred_name": "blank2",
                 "amount": 4.0,
                 "unit": "large",
                 "notes": "cooled and peeled"
@@ -7331,7 +7331,7 @@
             },
             {
                 "ingred_name": "pumpkin spice",
-                "amount": "1 1/2",
+                "amount": 1.5,
                 "unit": "tsp",
                 "notes": null
             },
@@ -7622,7 +7622,7 @@
             },
             {
                 "ingred_name": "cumin",
-                "amount": "2 1/4",
+                "amount": 2.25,
                 "unit": "teaspoons",
                 "notes": null
             },
@@ -7658,7 +7658,7 @@
             },
             {
                 "ingred_name": "jarred medium salsa",
-                "amount": "1 1/4",
+                "amount": 1.25,
                 "unit": "cups",
                 "notes": null
             },
@@ -7670,7 +7670,7 @@
             },
             {
                 "ingred_name": "reduced fat shredded 4 cheese Mexican blend",
-                "amount": "1 1/2",
+                "amount": 1.5,
                 "unit": "cups",
                 "notes": "Sargento"
             },
@@ -8060,7 +8060,7 @@
             },
             {
                 "ingred_name": "cumin",
-                "amount": "1 1/2",
+                "amount": 1.5,
                 "unit": "teaspoons",
                 "notes": null
             },
@@ -8084,7 +8084,7 @@
             },
             {
                 "ingred_name": "chicken broth",
-                "amount": "2 1/2",
+                "amount": 2.5,
                 "unit": "cups",
                 "notes": null
             },
@@ -8185,7 +8185,7 @@
             },
             {
                 "ingred_name": "canned tomato sauce",
-                "amount": "1/2 ",
+                "amount": 0.5,
                 "unit": "cup",
                 "notes": "half 8 oz can"
             },
@@ -8528,7 +8528,7 @@
             },
             {
                 "ingred_name": "Worcestershire sauce",
-                "amount": "1 1/2",
+                "amount": 1.5,
                 "unit": "teaspoons",
                 "notes": null
             },
@@ -8788,7 +8788,7 @@
             },
             {
                 "ingred_name": "Heart Smart Bisquick",
-                "amount": "1 1/4",
+                "amount": 1.25,
                 "unit": "cups",
                 "notes": "*see note below to substitute"
             },
@@ -9291,7 +9291,7 @@
             },
             {
                 "ingred_name": "thin-sliced boneless chicken breast",
-                "amount": "1 -1/4",
+                "amount": 1.25,
                 "unit": "pounds",
                 "notes": "cutlets"
             },
@@ -9617,19 +9617,19 @@
             },
             {
                 "ingred_name": "cornstarch",
-                "amount": "1 1/2",
+                "amount": 1.5,
                 "unit": "tablespoons",
                 "notes": null
             },
             {
                 "ingred_name": "chili paste",
-                "amount": "2 to 3",
+                "amount": 2.5,
                 "unit": "teaspoons",
                 "notes": "to taste"
             },
             {
                 "ingred_name": "thin sliced boneless chicken breast cutlets",
-                "amount": "1 1/2",
+                "amount": 1.5,
                 "unit": "pounds",
                 "notes": "sliced into thin strips"
             },
@@ -9842,7 +9842,7 @@
             },
             {
                 "ingred_name": "peeled and deveined shrimp",
-                "amount": "1-1/4",
+                "amount": 1.25,
                 "unit": "pounds",
                 "notes": null
             },
@@ -9871,7 +9871,7 @@
         "ingredients": [
             {
                 "ingred_name": "quick oats",
-                "amount": "1 1/2",
+                "amount": 1.5,
                 "unit": "cups",
                 "notes": null
             },
@@ -9978,7 +9978,7 @@
             },
             {
                 "ingred_name": "ginger",
-                "amount": "1 1/2",
+                "amount": 1.5,
                 "unit": "inches",
                 "notes": "peeled, sliced into disks, and smashed"
             },
@@ -10239,7 +10239,7 @@
             },
             {
                 "ingred_name": "Cajun seasoning",
-                "amount": "2 to 3",
+                "amount": 2.5,
                 "unit": "teaspoons",
                 "notes": "or to taste"
             },
@@ -10405,7 +10405,7 @@
             },
             {
                 "ingred_name": "water",
-                "amount": "3 1/2",
+                "amount": 3.5,
                 "unit": "cups",
                 "notes": null
             },
@@ -10753,7 +10753,7 @@
         "ingredients": [
             {
                 "ingred_name": "butternut squash",
-                "amount": "1 1/4",
+                "amount": 1.25,
                 "unit": "lbs",
                 "notes": "peeled and diced 3/4-inch"
             },
@@ -10765,7 +10765,7 @@
             },
             {
                 "ingred_name": "pure maple syrup",
-                "amount": "2 1/2",
+                "amount": 2.5,
                 "unit": "tbsp",
                 "notes": null
             },
@@ -10984,7 +10984,7 @@
             },
             {
                 "ingred_name": "diced zucchini",
-                "amount": "1 1/2",
+                "amount": 1.5,
                 "unit": "cups",
                 "notes": "(6 1/2 oz) "
             },
@@ -11037,7 +11037,7 @@
         "ingredients": [
             {
                 "ingred_name": "sliced strawberries",
-                "amount": "1 1/2",
+                "amount": 1.5,
                 "unit": "cup",
                 "notes": null
             },
@@ -11055,7 +11055,7 @@
             },
             {
                 "ingred_name": "almond flour",
-                "amount": "1 1/2",
+                "amount": 1.5,
                 "unit": "cups",
                 "notes": null
             },
@@ -11079,7 +11079,7 @@
             },
             {
                 "ingred_name": "unsalted butter",
-                "amount": "2 1/2",
+                "amount": 2.5,
                 "unit": "tablespoons",
                 "notes": "room temperature"
             },
@@ -11144,7 +11144,7 @@
             },
             {
                 "ingred_name": "marinara sauce",
-                "amount": "1 1/2",
+                "amount": 1.5,
                 "unit": "cups",
                 "notes": null
             },
@@ -11185,7 +11185,7 @@
             },
             {
                 "ingred_name": "sea scallops",
-                "amount": "1 1/4",
+                "amount": 1.25,
                 "unit": "lb",
                 "notes": "washed and dried with a paper towel"
             },
@@ -11343,7 +11343,7 @@
                 "notes": "in frozen section, thawed"
             },
             {
-                "ingred_name": "picadillo",
+                "ingred_name": "blank3",
                 "amount": 1.0,
                 "unit": "cup",
                 "notes": null
@@ -11415,7 +11415,7 @@
             },
             {
                 "ingred_name": "shredded carrots",
-                "amount": "1 1/2",
+                "amount": 1.5,
                 "unit": "cups",
                 "notes": null
             },
@@ -11503,7 +11503,7 @@
             },
             {
                 "ingred_name": "Tajin Classic or chili-lime seasoning",
-                "amount": "1 1/4",
+                "amount": 1.25,
                 "unit": "teaspoons",
                 "notes": null
             },
@@ -11875,7 +11875,7 @@
             },
             {
                 "ingred_name": "acorn squash",
-                "amount": "2 1/2",
+                "amount": 2.5,
                 "unit": "pounds",
                 "notes": "cut into wedges"
             },
@@ -12094,13 +12094,13 @@
             },
             {
                 "ingred_name": "broccoli florets",
-                "amount": "3 1/2",
+                "amount": 3.5,
                 "unit": "cups",
                 "notes": "cut bit sized"
             },
             {
                 "ingred_name": "grape tomatoes",
-                "amount": "1 1/2",
+                "amount": 1.5,
                 "unit": "cups",
                 "notes": "halved"
             },
@@ -12242,7 +12242,7 @@
             },
             {
                 "ingred_name": "tomato sauce",
-                "amount": "1-1/2",
+                "amount": 1.5,
                 "unit": "cups",
                 "notes": null
             },
@@ -12462,7 +12462,7 @@
             },
             {
                 "ingred_name": "za\u2019atar",
-                "amount": "2\u00bd",
+                "amount": 2.5,
                 "unit": "tablespoons",
                 "notes": null
             },
@@ -13167,13 +13167,13 @@
             },
             {
                 "ingred_name": "Adobo Seasoning",
-                "amount": "2 1/2",
+                "amount": 2.5,
                 "unit": "teaspoons",
                 "notes": "*"
             },
             {
                 "ingred_name": "kosher salt",
-                "amount": "1/2 ",
+                "amount": 0.5,
                 "unit": "teaspoon",
                 "notes": null
             },
@@ -13262,13 +13262,13 @@
             },
             {
                 "ingred_name": "cumin",
-                "amount": "1 1/2",
+                "amount": 1.5,
                 "unit": "teaspoons",
                 "notes": null
             },
             {
                 "ingred_name": "garlic powder",
-                "amount": "1 1/2",
+                "amount": 1.5,
                 "unit": "teaspoons",
                 "notes": null
             },
@@ -13316,7 +13316,7 @@
             },
             {
                 "ingred_name": "water",
-                "amount": "3 to 4",
+                "amount": 3.5,
                 "unit": "tablespoons",
                 "notes": null
             },
@@ -13440,7 +13440,7 @@
             },
             {
                 "ingred_name": "sesame oil",
-                "amount": "3 1/2",
+                "amount": 3.5,
                 "unit": "teaspoons",
                 "notes": null
             },
@@ -13565,13 +13565,13 @@
             },
             {
                 "ingred_name": "cumin",
-                "amount": "1 1/2",
+                "amount": 1.5,
                 "unit": "teaspoon",
                 "notes": null
             },
             {
                 "ingred_name": "kosher salt",
-                "amount": "1 1/4",
+                "amount": 1.25,
                 "unit": "teaspoon",
                 "notes": null
             },
@@ -13612,7 +13612,7 @@
             },
             {
                 "ingred_name": "baking powder",
-                "amount": "1 1/2",
+                "amount": 1.5,
                 "unit": "teaspoons",
                 "notes": null
             },
@@ -13937,7 +13937,7 @@
             },
             {
                 "ingred_name": "water or broth",
-                "amount": "1 1/2",
+                "amount": 1.5,
                 "unit": "cups",
                 "notes": "for cooking the rice"
             },
@@ -14155,13 +14155,13 @@
         "ingredients": [
             {
                 "ingred_name": "kosher salt",
-                "amount": "1 1/2",
+                "amount": 1.5,
                 "unit": "teaspoon",
                 "notes": null
             },
             {
                 "ingred_name": "skinless salmon fillet",
-                "amount": "1 1/2",
+                "amount": 1.5,
                 "unit": "lbs",
                 "notes": "cut into 4 pieces"
             },
@@ -14315,7 +14315,7 @@
         "ingredients": [
             {
                 "ingred_name": "cooked chicken breast or canned",
-                "amount": "6 1/2",
+                "amount": 6.5,
                 "unit": "ounces",
                 "notes": "from an 8 oz breast, cubed"
             },
@@ -14463,7 +14463,7 @@
             },
             {
                 "ingred_name": "jumbo shrimp",
-                "amount": "1 1/2",
+                "amount": 1.5,
                 "unit": "pounds",
                 "notes": "peeled and deveined*"
             },
@@ -14493,7 +14493,7 @@
             },
             {
                 "ingred_name": "crushed red pepper",
-                "amount": "1 1/2",
+                "amount": 1.5,
                 "unit": "teaspoons",
                 "notes": "or to taste"
             },

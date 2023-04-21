@@ -10,13 +10,15 @@ def convert_all():
             # print(f"entry: {entry}")
             combined_dataset.append(convert(f"tests/sample_data/{entry.name}"))
 
-    with open("tests/full-dataset.json", "w") as f:
+    with open("tests/full-dataset3.json", "w") as f:
         json.dump(combined_dataset, f)
 
 
 def convert(filename):
     with open(filename) as f:
         json_data = json.load(f)
+        if json_data["name"] == "Dairy-Free Heavy Cream":
+            print("breakpoint")
         for ingredient in json_data["ingredients"]:
             if "amount" in ingredient and ingredient["amount"] is not None:
                 if len(ingredient["amount"]) == 3:
@@ -35,12 +37,18 @@ def convert(filename):
 
                 elif (
                     len(ingredient["amount"]) == 5
-                    and ingredient["amount"][1] == " "
-                    and ingredient["amount"][3] == "/"
+                    and (
+                        ingredient["amount"][1] == " " or ingredient["amount"][1] == "-"
+                    )
+                    and (
+                        ingredient["amount"][3] == "/"
+                        or ingredient["amount"][3] == "\u2044"
+                    )
                 ):
                     num = unicodedata.numeric(ingredient["amount"][0])
-                    if ingredient["amount"][2:4] in my_3char_dict:
-                        ingredient["amount"] = num + my_3char_dict[ingredient["amount"]]
+                    fraction = ingredient["amount"][2] + "/" + ingredient["amount"][4]
+                    if fraction in my_3char_dict:
+                        ingredient["amount"] = num + my_3char_dict[fraction]
                 elif len(ingredient["amount"]) == 1:
                     try:
                         ingredient["amount"] = float(ingredient["amount"])

@@ -31,15 +31,16 @@ def build_ingredients_table(metadata: MetaData) -> tuple[MetaData, Table]:
     table = Table(
         "ingredient",
         metadata,
-        # Column("ingred_id", Integer, primary_key=True),
+        Column("ingred_id", Integer, primary_key=True),
         Column(
             "recipe_id",
             ForeignKey("recipe.recipe_id", ondelete="CASCADE"),
-            primary_key=True,
         ),
-        Column("ingred_name", String, primary_key=True),
+        Column("ingred_name", String),
         Column("amount", Float),
         Column("unit", String),
+        Column("notes", String),
+        Column("group", String),
         # Column("created_at", DateTime, nullable=False),
         # Column("modified_at", DateTime, nullable=False),
     )

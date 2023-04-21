@@ -6,6 +6,8 @@ class Ingredient(BaseModel):
     ingred_name: str
     amount: float | None
     unit: str | None
+    notes: str | None
+    group: str | None
 
 
 class BaseRecipe(BaseModel):
@@ -33,3 +35,5 @@ class JoinedRecipeRecord(RecipeInDB):
     ingred_name: str
     amount: float | None
     unit: str | None
+    notes: str | None
+    group: str | None

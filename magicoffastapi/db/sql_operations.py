@@ -148,6 +148,8 @@ def select_recipe_by_id_with_ingredients(
             ingredients_table.c.ingred_name,
             ingredients_table.c.amount,
             ingredients_table.c.unit,
+            ingredients_table.c.notes,
+            ingredients_table.c.group,
         )
         .join_from(recipes_table, ingredients_table)
         .where(recipes_table.c.recipe_id == recipe_id)
@@ -165,6 +167,8 @@ def select_recipe_by_id_with_ingredients(
                 ingred_name=raw_ingredient["ingred_name"],
                 amount=raw_ingredient["amount"],
                 unit=raw_ingredient["unit"],
+                notes=raw_ingredient["notes"],
+                group=raw_ingredient["group"],
             )
         )
     return recipe
@@ -231,6 +235,8 @@ def select_ingredients_by_recipe_id(
             ingredients_table.c.ingred_name,
             ingredients_table.c.amount,
             ingredients_table.c.unit,
+            ingredients_table.c.notes,
+            ingredients_table.c.group,
         ).where(ingredients_table.c.recipe_id == recipe_id)
     )
     raw_ingredients = ingred_result.all()
@@ -313,6 +319,8 @@ def build_recipe_with_ingredients_select_statement() -> Select:
         ingredients_table.c.ingred_name,
         ingredients_table.c.amount,
         ingredients_table.c.unit,
+        ingredients_table.c.notes,
+        ingredients_table.c.group,
     ).join_from(recipes_table, ingredients_table)
 
 

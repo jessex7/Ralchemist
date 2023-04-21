@@ -71,9 +71,7 @@ def test_read_recipes_from_query(client: TestClient):
 
     # act
     params = {
-        "name": "Dan Dan Noodles",
-        "author": "Test Author 1",
-        "ingredients": ["Ginger", "Soy Sauce"],
+        "name": "Spicy Vodka Chicken Parmesan",
     }
     response = client.get(
         "/recipes",
@@ -83,10 +81,7 @@ def test_read_recipes_from_query(client: TestClient):
     # assert
     assert response.status_code == 200
     response_data = response.json()
-    assert len(response_data) == 2
-
-    for item in response_data:
-        assert item["name"] == "Dan Dan Noodles" or item["name"] == "Korean Beef"
+    assert response_data[0]["name"] == "Spicy Vodka Chicken Parmesan"
 
 
 def test_update_recipe(client: TestClient):

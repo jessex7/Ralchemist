@@ -8,10 +8,32 @@ from magicoffastapi.db.operations import (
     update_recipe,
     delete_recipe,
     read_recipes_matching_query,
+    read_recipes,
 )
-from magicoffastapi.schemas.recipe import BaseRecipe, Recipe
+from magicoffastapi.schemas.recipe import BaseRecipe, Recipe, ScoredRecipe
+from magicoffastapi.smarts.recipe_finder import RecipeFinder
 
 router = APIRouter(prefix="/recipes")
+
+
+@router.get("/prototype")
+async def prototype_functionality(
+    db: Connection = Depends(get_db_conn),
+) -> list[Recipe]:
+    recipes = read_recipes(conn=db)
+    if recipes is None:
+        raise HTTPException(status_code=500)
+    return recipes
+
+
+@router.get("/find")
+async def find_recipes(
+    ingredients: Annotated[set[str], Query()],
+    exclude: Annotated[set[int] | None, Query()] = None,
+    db: Connection = Depends(get_db_conn),
+) -> list[ScoredRecipe]:
+    r_finder = RecipeFinder(conn=db)
+    return r_finder.find(ingredients, exclude)
 
 
 @router.get("/{recipe_id}")

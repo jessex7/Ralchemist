@@ -1,72 +1,65 @@
 from sqlalchemy import Connection
-from magicoffastapi.schemas.recipe import Recipe, Ingredient
+from magicoffastapi.schemas.recipe import Recipe, Ingredient, ScoredRecipe
 from magicoffastapi.db.sql_operations import (
-    select_recipe_ids_by_ingredients,
+    select_recipe_ids_by_ingredients_like,
     select_recipes_by_ids,
-    select_recipes_with_ingredients_by_ids,
+    select_joined_recipes_matching_query,
 )
+from magicoffastapi.db.operations import _combine_joined_recipe_records
 
 
 class RecipeFinder:
     def __init__(
         self,
         conn: Connection,
-        ingred_amount_is_factor: bool = False,
-        prefer_popular_recipes: bool = True,
+        # ingred_amount_is_factor: bool = False,
+        # prefer_popular_recipes: bool = True,
+        # prefer_different_cuisine: bool = True,
     ):
         self.conn = conn
-        self.ingred_amount_is_factor = ingred_amount_is_factor
-        self.prefer_popular_recipes = prefer_popular_recipes
+        # self.ingred_amount_is_factor = ingred_amount_is_factor
+        # self.prefer_popular_recipes = prefer_popular_recipes
+        # self.prefer_different_cuisine = prefer_different_cuisine
 
     def find(
-        self, planned_recipes: list[Recipe], provided_ingredients: list[Ingredient]
-    ):
-        # obtain full id list of  possible recipes
-        ingred_names = [x.ingred_name for x in provided_ingredients]
-        planned_recipe_ids = [x.recipe_id for x in planned_recipes]
-        retrieved_recipe_ids = select_recipe_ids_by_ingredients(
-            conn=self.conn, ingred_names=ingred_names
-        )
-        # filter out recipe_ids already in the plan
-        de_duplicated_id_set = set()
-        if retrieved_recipe_ids is None:
-            return None
-        for recipe_id in retrieved_recipe_ids:
-            if recipe_id in planned_recipe_ids:
-                pass
-            else:
-                de_duplicated_id_set.add(recipe_id)
+        self, ingredients: set[str], exclude: set[int] | None
+    ) -> list[ScoredRecipe]:
+        """Provides a list of recipes that include at least one of the provided ingredients.
 
-        max_score = len(provided_ingredients)
+        Sorts the returned recipes from best match to worst match.
 
-        joined_records = select_recipes_with_ingredients_by_ids(
-            conn=self.conn, recipe_ids=list(de_duplicated_id_set)
+        Parameters:
+        - `ingredients`: a list of ingredient names. At least one of these will be
+         a constituent part of each recipe returned by this function.
+        - `exclude`: a list of recipe IDs to exclude from the resulting recipes. Note
+        that this function does not confirm these IDs are valid. It merely prevents
+        any recipe with one of these IDs from being in the results.
+
+        """
+
+        joined_records = select_joined_recipes_matching_query(
+            conn=self.conn, name=None, author=None, ingredients=ingredients
         )
         if joined_records is None:
             raise Exception("No recipes were returned but they should have been.")
-        recipes = {}
-        for record in joined_records:
-            if record.recipe_id in recipes:
-                recipes[record.recipe_id].ingredients.append(
-                    Ingredient(
-                        ingred_name=record.ingred_name,
-                        amount=record.amount,
-                        unit=record.unit,
-                    )
-                )
-            elif record.recipe_id not in recipes:
-                record.ingredients = [
-                    Ingredient(
-                        ingred_name=record.ingred_name,
-                        amount=record.amount,
-                        unit=record.unit,
-                    )
-                ]
-                recipe = Recipe(
-                    **record.dict(exclude={"ingred_name", "amount", "unit"})
-                )
-                recipes[record.recipe_id] = recipe
 
-        print(recipes)
-        recipes = recipes.values()
-        print(recipes)
+        if exclude is not None:
+            joined_records = [y for y in joined_records if y.recipe_id not in exclude]
+
+        recipes = _combine_joined_recipe_records(joined_records)
+        max_score = len(ingredients)
+        scored_recipes: list[ScoredRecipe] = []
+        for recipe in recipes:
+            unique_ingredients = {x.ingred_name for x in recipe.ingredients}
+            score = 0
+            for i in ingredients:
+                for unique_ingredient in unique_ingredients:
+                    if i in unique_ingredient:
+                        score += 1
+                        break
+            scored_recipes.append(ScoredRecipe(score=score, recipe=recipe))
+            if score > max_score:
+                raise Exception("A recipe scored higher than the maximum.")
+
+        scored_recipes.sort(key=lambda recipe: recipe.score)
+        return scored_recipes

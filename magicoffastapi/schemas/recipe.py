@@ -37,3 +37,8 @@ class JoinedRecipeRecord(RecipeInDB):
     unit: str | None
     notes: str | None
     group: str | None
+
+
+class ScoredRecipe(BaseModel):
+    score: float
+    recipe: Recipe

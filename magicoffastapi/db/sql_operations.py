@@ -100,7 +100,7 @@ def select_recipes_by_ids(
     conditions = []
     for id in recipe_ids:
         conditions.append(recipes_table.c.recipe_id == id)
-    stmt = stmt.filter(or_(*conditions))
+    stmt = stmt.filter(or_(False, *conditions))
     recipes_result: Result = conn.execute(stmt)
     raw_recipes = recipes_result.all()
     if raw_recipes is None:
@@ -112,23 +112,25 @@ def select_recipes_by_ids(
     return recipes
 
 
-def select_recipes_with_ingredients_by_ids(
-    conn: Connection, recipe_ids: list[int]
-) -> list[JoinedRecipeRecord] | None:
-    stmt = build_recipe_with_ingredients_select_statement()
-    conditions = []
-    for id in recipe_ids:
-        conditions.append(recipes_table.c.recipe_id == id)
-    stmt = stmt.filter(or_(*conditions))
-    stmt = stmt.order_by(recipes_table.c.recipe_id)
-    recipes_result: Result = conn.execute(stmt)
-    raw_joined_rows = recipes_result.all()
-    if raw_joined_rows is None:
-        return None
-    joined_recipe_records = []
-    for row in raw_joined_rows:
-        joined_recipe_record = JoinedRecipeRecord(**row._asdict())
-    return joined_recipe_records
+# TODO | Evaluate for deletion
+# def select_recipes_with_ingredients_by_ids(
+#     conn: Connection, recipe_ids: list[int]
+# ) -> list[JoinedRecipeRecord] | None:
+#     stmt = build_recipe_with_ingredients_select_statement()
+#     conditions = []
+#     for id in recipe_ids:
+#         conditions.append(recipes_table.c.recipe_id == id)
+#     stmt = stmt.filter(or_(*conditions))
+#     stmt = stmt.order_by(recipes_table.c.recipe_id)
+#     recipes_result: Result = conn.execute(stmt)
+#     raw_joined_rows = recipes_result.all()
+#     if raw_joined_rows is None:
+#         return None
+#     joined_recipe_records = []
+#     for row in raw_joined_rows:
+#         joined_recipe_record = JoinedRecipeRecord(**row._asdict())
+#         joined_recipe_records.append(joined_recipe_record)
+#     return joined_recipe_records
 
 
 def select_recipe_by_id_with_ingredients(
@@ -178,8 +180,12 @@ def select_joined_recipes_matching_query(
     conn: Connection,
     name: str | None,
     author: str | None,
-    ingredients: list[str] | None,
+    ingredients: set[str] | None,
 ) -> list[JoinedRecipeRecord] | None:
+    """Wrapper for a SELECT of joined records with potentially multiple conditions
+
+    If caller supplies no query parameters, function will return all records.
+    """
     stmt = build_recipe_with_ingredients_select_statement()
     filters = []
     if name is not None:
@@ -188,15 +194,14 @@ def select_joined_recipes_matching_query(
         filters.append(recipes_table.c.author == author)
     if ingredients is not None:
         for ingredient in ingredients:
-            filters.append(ingredients_table.c.ingred_name == ingredient)
-    stmt = stmt.filter(or_(*filters))
+            filters.append(ingredients_table.c.ingred_name.like(f"%{ingredient}%"))
+    if len(filters) != 0:
+        stmt = stmt.filter(or_(False, *filters))
+
     recipes_result: Result = conn.execute(stmt)
-    raw_joined_rows = recipes_result.all()
-    if raw_joined_rows is None:
-        return None
-    joined_recipe_records = []
-    for row in raw_joined_rows:
-        joined_recipe_record = JoinedRecipeRecord(**row._asdict())
+    joined_recipe_records: list[JoinedRecipeRecord] = []
+    for dict_row in recipes_result.mappings():
+        joined_recipe_records.append(JoinedRecipeRecord(**dict_row))
     return joined_recipe_records
 
 
@@ -263,6 +268,18 @@ def select_recipe_ids_by_ingredients(
     for row in ingred_result:
         recipe_ids.add(row[0])
     return recipe_ids
+
+
+def select_recipe_ids_by_ingredients_like(
+    conn: Connection, ingred_names: set[str]
+) -> set[int] | None:
+    stmt = select(ingredients_table.c.recipe_id)
+    conditions = []
+    for ingredient in ingred_names:
+        conditions.append(ingredients_table.c.ingred_name.like(f"%{ingredient}%"))
+    stmt = stmt.filter(or_(False, *conditions))
+    result = conn.execute(stmt)
+    return set(result.scalars().all())
 
 
 def update_recipe_entry(recipe: Recipe, conn: Connection):

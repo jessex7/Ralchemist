@@ -19,7 +19,7 @@ def construct_db_if_none_exists(engine: Engine, metadata: MetaData) -> None:
 metadata = MetaData()
 metadata, recipes_table = build_recipes_table(metadata=metadata)
 metadata, ingredients_table = build_ingredients_table(metadata=metadata)
-engine = create_engine(settings.DATABASE_URL)
+engine = create_engine(settings.DATABASE_URL, echo=True)
 construct_db_if_none_exists(engine=engine, metadata=metadata)
 
 

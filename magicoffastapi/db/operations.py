@@ -5,6 +5,7 @@ from magicoffastapi.schemas.recipe import (
     BaseRecipe,
     RecipeInDB,
     Ingredient,
+    JoinedRecipeRecord,
 )
 from magicoffastapi.db.setup import get_db_conn, recipes_table, ingredients_table
 from magicoffastapi.db.sql_operations import (
@@ -19,6 +20,7 @@ from magicoffastapi.db.sql_operations import (
     select_recipe_by_id_with_ingredients,
     select_recipe_ids_by_ingredients,
     select_recipes_by_ids,
+    select_joined_recipes_matching_query,
 )
 
 
@@ -121,3 +123,47 @@ def delete_recipe(recipe_id: int, conn: Connection):
     """Removes recipe from datastore"""
     delete_recipe_by_id(recipe_id=recipe_id, conn=conn)
     conn.commit()
+
+
+def read_recipes(conn: Connection):
+    joined_recipe_records = select_joined_recipes_matching_query(
+        conn=conn, name=None, author=None, ingredients=None
+    )
+    if joined_recipe_records is None:
+        return None
+    return _combine_joined_recipe_records(joined_recipe_records)
+
+
+def _combine_joined_recipe_records(
+    joined_records: list[JoinedRecipeRecord],
+) -> list[Recipe]:
+    recipes_dict: dict[int, Recipe] = {}
+    for r in joined_records:
+        if r.recipe_id in recipes_dict:
+            recipes_dict[r.recipe_id].ingredients.append(
+                Ingredient(
+                    ingred_name=r.ingred_name,
+                    amount=r.amount,
+                    unit=r.unit,
+                    notes=r.notes,
+                    group=r.group,
+                )
+            )
+        elif r.recipe_id not in recipes_dict:
+            r.ingredients = []
+            r.ingredients.append(
+                Ingredient(
+                    ingred_name=r.ingred_name,
+                    amount=r.amount,
+                    unit=r.unit,
+                    notes=r.notes,
+                    group=r.group,
+                )
+            )
+            recipe = Recipe(
+                **r.dict(exclude={"ingred_name", "amount", "unit", "notes", "group"})
+            )
+            recipes_dict[r.recipe_id] = recipe
+
+    recipes = [value for value in recipes_dict.values()]
+    return recipes

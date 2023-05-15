@@ -187,6 +187,9 @@ def select_joined_recipes_matching_query(
     If caller supplies no query parameters, function will return all records.
     """
     stmt = build_recipe_with_ingredients_select_statement()
+    sub_select = select(recipes_table.c.recipe_id).join_from(
+        recipes_table, ingredients_table
+    )
     filters = []
     if name is not None:
         filters.append(recipes_table.c.name == name)
@@ -196,7 +199,8 @@ def select_joined_recipes_matching_query(
         for ingredient in ingredients:
             filters.append(ingredients_table.c.ingred_name.like(f"%{ingredient}%"))
     if len(filters) != 0:
-        stmt = stmt.filter(or_(False, *filters))
+        sub_select = sub_select.filter(or_(False, *filters))
+        stmt = stmt.where(recipes_table.c.recipe_id.in_(sub_select))
 
     recipes_result: Result = conn.execute(stmt)
     joined_recipe_records: list[JoinedRecipeRecord] = []

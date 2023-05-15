@@ -1,8 +1,6 @@
 from sqlalchemy import Connection
 from magicoffastapi.schemas.recipe import Recipe, Ingredient, ScoredRecipe
 from magicoffastapi.db.sql_operations import (
-    select_recipe_ids_by_ingredients_like,
-    select_recipes_by_ids,
     select_joined_recipes_matching_query,
 )
 from magicoffastapi.db.operations import _combine_joined_recipe_records
@@ -35,6 +33,8 @@ class RecipeFinder:
         that this function does not confirm these IDs are valid. It merely prevents
         any recipe with one of these IDs from being in the results.
 
+        Returns:
+        - `scored_recipes`: a list of recipes with scores, sorted by score
         """
 
         joined_records = select_joined_recipes_matching_query(
@@ -61,5 +61,5 @@ class RecipeFinder:
             if score > max_score:
                 raise Exception("A recipe scored higher than the maximum.")
 
-        scored_recipes.sort(key=lambda recipe: recipe.score)
+        scored_recipes.sort(key=lambda recipe: recipe.score, reverse=True)
         return scored_recipes

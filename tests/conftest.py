@@ -2,12 +2,12 @@ import pytest
 import json
 from sqlalchemy import MetaData, create_engine
 from starlette.testclient import TestClient
-from magicoffastapi.app import app
-from magicoffastapi.db.tables import build_ingredients_table, build_recipes_table
-from magicoffastapi.db.sql_operations import select_joined_recipes_matching_query
-from magicoffastapi.db.operations import create_recipe
-from magicoffastapi.settings import settings
-from magicoffastapi.schemas.recipe import BaseRecipe
+from app.app import app
+from app.db.tables import build_ingredients_table, build_recipes_table
+from app.db.sql_operations import select_joined_recipes_matching_query
+from app.db.operations import create_recipe
+from app.settings import settings
+from app.schemas.recipe import BaseRecipe
 
 # creates a fresh database
 metadata = MetaData()

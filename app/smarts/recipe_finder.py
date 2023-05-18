@@ -1,9 +1,9 @@
 from sqlalchemy import Connection
-from magicoffastapi.schemas.recipe import Recipe, Ingredient, ScoredRecipe
-from magicoffastapi.db.sql_operations import (
+from app.schemas.recipe import Recipe, Ingredient, ScoredRecipe
+from app.db.sql_operations import (
     select_joined_recipes_matching_query,
 )
-from magicoffastapi.db.operations import _combine_joined_recipe_records
+from app.db.operations import _combine_joined_recipe_records
 
 
 class RecipeFinder:

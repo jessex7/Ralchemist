@@ -1,8 +1,8 @@
 from typing import Union, Annotated
 from fastapi import APIRouter, Depends, Response, HTTPException, Query
 from sqlalchemy import Connection
-from magicoffastapi.db.setup import get_db_conn
-from magicoffastapi.db.operations import (
+from app.db.setup import get_db_conn
+from app.db.operations import (
     create_recipe,
     read_recipe_by_id,
     update_recipe,
@@ -10,8 +10,8 @@ from magicoffastapi.db.operations import (
     read_recipes_matching_query,
     read_recipes,
 )
-from magicoffastapi.schemas.recipe import BaseRecipe, Recipe, ScoredRecipe
-from magicoffastapi.smarts.recipe_finder import RecipeFinder
+from app.schemas.recipe import BaseRecipe, Recipe, ScoredRecipe
+from app.smarts.recipe_finder import RecipeFinder
 
 router = APIRouter(prefix="/recipes")
 

@@ -1,5 +1,5 @@
-from magicoffastapi.db.operations import _combine_joined_recipe_records
-from magicoffastapi.schemas.recipe import Recipe
+from RecipeAlchemy.db.operations import _combine_joined_recipe_records
+from RecipeAlchemy.schemas.recipe import Recipe
 
 
 def test_combined_joined_recipe_records(joined_recipe_records):

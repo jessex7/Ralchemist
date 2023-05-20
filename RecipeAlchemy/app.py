@@ -1,5 +1,5 @@
 from fastapi import FastAPI, Depends
-from magicoffastapi.routers import recipes
+from RecipeAlchemy.routers import recipes
 
 app = FastAPI()
 app.include_router(recipes.router)

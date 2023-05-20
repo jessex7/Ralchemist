@@ -5,8 +5,8 @@ from sqlalchemy import (
     Engine,
 )
 
-from magicoffastapi.settings import settings
-from magicoffastapi.db.tables import build_recipes_table, build_ingredients_table
+from RecipeAlchemy.settings import settings
+from RecipeAlchemy.db.tables import build_recipes_table, build_ingredients_table
 
 
 def construct_db_if_none_exists(engine: Engine, metadata: MetaData) -> None:

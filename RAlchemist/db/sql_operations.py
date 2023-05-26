@@ -10,14 +10,14 @@ from sqlalchemy import (
     or_,
     Row,
 )
-from RecipeAlchemy.schemas.recipe import (
+from RAlchemist.schemas.recipe import (
     Recipe,
     BaseRecipe,
     RecipeInDB,
     Ingredient,
     JoinedRecipeRecord,
 )
-from RecipeAlchemy.db.setup import recipes_table, ingredients_table
+from RAlchemist.db.setup import recipes_table, ingredients_table
 
 
 def insert_recipe(new_recipe: BaseRecipe, conn: Connection) -> int:

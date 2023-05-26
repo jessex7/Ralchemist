@@ -1,7 +1,7 @@
 from fastapi.testclient import TestClient
 from sqlalchemy import Connection
-from RecipeAlchemy.app import app
-from RecipeAlchemy.db.operations import (
+from RAlchemist.app import app
+from RAlchemist.db.operations import (
     delete_recipe_by_id,
     insert_recipe,
     insert_ingredients,

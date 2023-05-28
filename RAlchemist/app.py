@@ -1,4 +1,4 @@
-from fastapi import FastAPI, Depends
+from fastapi import FastAPI
 from RAlchemist.routers import recipes
 
 app = FastAPI()

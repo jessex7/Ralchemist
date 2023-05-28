@@ -1,4 +1,4 @@
-from typing import Union, Annotated
+from typing import Annotated
 from fastapi import APIRouter, Depends, Response, HTTPException, Query
 from sqlalchemy import Connection
 from RAlchemist.db.setup import get_db_conn

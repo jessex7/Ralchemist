@@ -1,5 +1,5 @@
 from sqlalchemy import Connection
-from RAlchemist.schemas.recipe import Recipe, Ingredient, ScoredRecipe
+from RAlchemist.schemas.recipe import ScoredRecipe
 from RAlchemist.db.sql_operations import (
     select_joined_recipes_matching_query,
 )
@@ -22,7 +22,7 @@ class RecipeFinder:
     def find(
         self, ingredients: set[str], exclude: set[int] | None
     ) -> list[ScoredRecipe]:
-        """Provides a list of recipes that include at least one of the provided ingredients.
+        """Provides a recipe list that include at least one of the provided ingredients
 
         Sorts the returned recipes from best match to worst match.
 

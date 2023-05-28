@@ -8,7 +8,6 @@ from sqlalchemy import (
     update,
     Select,
     or_,
-    Row,
 )
 from RAlchemist.schemas.recipe import (
     Recipe,
@@ -59,7 +58,7 @@ def insert_ingredients(ingredients: list[Ingredient], recipe_id: int, conn: Conn
     for ingred in ingredients:
         ingred_dict = ingred.dict()
         ingred_dict["recipe_id"] = recipe_id
-        result: Result = conn.execute(
+        conn.execute(
             insert(ingredients_table),
             [
                 ingred_dict,
@@ -292,7 +291,7 @@ def update_recipe_entry(recipe: Recipe, conn: Connection):
         1) it does no data validation. That must be done elsewhere.
         2) it does not 'commit' anything to the database. That must be done elsewhere
     """
-    recipe_result = conn.execute(
+    conn.execute(
         update(recipes_table)
         .where(recipes_table.c.recipe_id == recipe.recipe_id)
         .values(

@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from RAlchemist.routers import recipes
+from src.routers import recipes
 
 app = FastAPI()
 app.include_router(recipes.router)

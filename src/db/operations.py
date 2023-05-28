@@ -1,12 +1,12 @@
 from sqlalchemy import Connection
-from RAlchemist.schemas.recipe import (
+from src.schemas.recipe import (
     Recipe,
     BaseRecipe,
     RecipeInDB,
     Ingredient,
     JoinedRecipeRecord,
 )
-from RAlchemist.db.sql_operations import (
+from src.db.sql_operations import (
     insert_recipe,
     select_ingredients_by_recipe_id,
     select_recipes,

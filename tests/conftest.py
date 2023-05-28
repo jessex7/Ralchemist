@@ -2,12 +2,12 @@ import pytest
 import json
 from sqlalchemy import MetaData, create_engine
 from starlette.testclient import TestClient
-from RAlchemist.app import app
-from RAlchemist.db.tables import build_ingredients_table, build_recipes_table
-from RAlchemist.db.sql_operations import select_joined_recipes_matching_query
-from RAlchemist.db.operations import create_recipe
-from RAlchemist.settings import settings
-from RAlchemist.schemas.recipe import BaseRecipe
+from src.app import app
+from src.db.tables import build_ingredients_table, build_recipes_table
+from src.db.sql_operations import select_joined_recipes_matching_query
+from src.db.operations import create_recipe
+from src.settings import settings
+from src.schemas.recipe import BaseRecipe
 
 # creates a fresh database
 metadata = MetaData()

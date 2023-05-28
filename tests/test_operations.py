@@ -1,5 +1,5 @@
-from RAlchemist.db.operations import _combine_joined_recipe_records
-from RAlchemist.schemas.recipe import Recipe
+from src.db.operations import _combine_joined_recipe_records
+from src.schemas.recipe import Recipe
 
 
 def test_combined_joined_recipe_records(joined_recipe_records):

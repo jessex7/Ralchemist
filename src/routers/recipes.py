@@ -1,8 +1,8 @@
 from typing import Annotated
 from fastapi import APIRouter, Depends, Response, HTTPException, Query
 from sqlalchemy import Connection
-from RAlchemist.db.setup import get_db_conn
-from RAlchemist.db.operations import (
+from src.db.setup import get_db_conn
+from src.db.operations import (
     create_recipe,
     read_recipe_by_id,
     update_recipe,
@@ -10,8 +10,8 @@ from RAlchemist.db.operations import (
     read_recipes_matching_query,
     read_recipes,
 )
-from RAlchemist.schemas.recipe import BaseRecipe, Recipe, ScoredRecipe
-from RAlchemist.smarts.recipe_finder import RecipeFinder
+from src.schemas.recipe import BaseRecipe, Recipe, ScoredRecipe
+from src.smarts.recipe_finder import RecipeFinder
 
 router = APIRouter(prefix="/recipes")
 

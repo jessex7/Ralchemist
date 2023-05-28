@@ -1,4 +1,4 @@
-from RAlchemist.smarts.recipe_finder import RecipeFinder
+from src.smarts.recipe_finder import RecipeFinder
 
 
 def test_recipe_finder_sorts_recipes(joined_recipe_records, db_conn):

@@ -1,9 +1,9 @@
 from sqlalchemy import Connection
-from RAlchemist.schemas.recipe import ScoredRecipe
-from RAlchemist.db.sql_operations import (
+from src.schemas.recipe import ScoredRecipe
+from src.db.sql_operations import (
     select_joined_recipes_matching_query,
 )
-from RAlchemist.db.operations import _combine_joined_recipe_records
+from src.db.operations import _combine_joined_recipe_records
 
 
 class RecipeFinder:

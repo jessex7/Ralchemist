@@ -1,3 +1,4 @@
+from pathlib import Path
 from sqlalchemy import (
     create_engine,
     MetaData,
@@ -10,6 +11,7 @@ from src.db.tables import build_recipes_table, build_ingredients_table
 
 
 def construct_db_if_none_exists(engine: Engine, metadata: MetaData) -> None:
+    Path(f"{Path.cwd()}/instance").mkdir(exist_ok=True)
     inspector = inspect(engine)
     table_names = inspector.get_table_names()
     if "recipe" not in table_names or "ingredient" not in table_names:

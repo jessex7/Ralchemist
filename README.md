@@ -6,3 +6,10 @@ A toolset for digital recipe management and meal planning.
 - import recipes
 - simplify your meal plans
 - and more!
+
+
+### Getting Started
+1. Clone the repo | ```git clone git@github.com:jessex7/Ralchemist.git```
+2. Build the container | ```sudo docker build -t ralchemist .```
+3. Run the container | ```sudo docker run -p 80:80 -t ralchemist```
+4. Confirm that 127.0.0.1:80/recipes returns a json list of recipes

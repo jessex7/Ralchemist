@@ -13,3 +13,9 @@ A toolset for digital recipe management and meal planning.
 2. Build the container | ```sudo docker build -t ralchemist .```
 3. Run the container | ```sudo docker run -p 80:80 -t ralchemist```
 4. Confirm that 127.0.0.1:80/recipes returns a json list of recipes
+  * This will be an empty list until you create a recipe. Alternatively, you can inject a lot of recipes by: 
+  ```
+  $ sudo docker exec -it <container name> /bin/bash
+  $ . .venv/bin/activate
+  $ python3 data_injector.py
+  ```

@@ -1,9 +1,9 @@
-FROM python:3.11 as requirements-stage
+FROM python:3.11-slim-bookworm as requirements-stage
 RUN pip install poetry
 WORKDIR /tmp
 COPY poetry.lock pyproject.toml /tmp/
 RUN poetry export -f requirements.txt --output requirements.txt --without-hashes
-FROM python:3.11
+FROM python:3.11-slim-bookworm
 COPY --from=requirements-stage /tmp/requirements.txt /Ralchemist/requirements.txt
 RUN pip install --no-cache-dir --upgrade -r /Ralchemist/requirements.txt
 COPY . /Ralchemist
